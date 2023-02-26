@@ -5,6 +5,57 @@
   (paper "A4")
 
   (lib_symbols
+    (symbol "Device:C_Small" (pin_numbers hide) (pin_names (offset 0.254) hide) (in_bom yes) (on_board yes)
+      (property "Reference" "C" (at 0.254 1.778 0)
+        (effects (font (size 1.27 1.27)) (justify left))
+      )
+      (property "Value" "C_Small" (at 0.254 -2.032 0)
+        (effects (font (size 1.27 1.27)) (justify left))
+      )
+      (property "Footprint" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "~" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_keywords" "capacitor cap" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_description" "Unpolarized capacitor, small symbol" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_fp_filters" "C_*" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "C_Small_0_1"
+        (polyline
+          (pts
+            (xy -1.524 -0.508)
+            (xy 1.524 -0.508)
+          )
+          (stroke (width 0.3302) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -1.524 0.508)
+            (xy 1.524 0.508)
+          )
+          (stroke (width 0.3048) (type default))
+          (fill (type none))
+        )
+      )
+      (symbol "C_Small_1_1"
+        (pin passive line (at 0 2.54 270) (length 2.032)
+          (name "~" (effects (font (size 1.27 1.27))))
+          (number "1" (effects (font (size 1.27 1.27))))
+        )
+        (pin passive line (at 0 -2.54 90) (length 2.032)
+          (name "~" (effects (font (size 1.27 1.27))))
+          (number "2" (effects (font (size 1.27 1.27))))
+        )
+      )
+    )
     (symbol "Device:R_Small" (pin_numbers hide) (pin_names (offset 0.254) hide) (in_bom yes) (on_board yes)
       (property "Reference" "R" (at 0.762 0.508 0)
         (effects (font (size 1.27 1.27)) (justify left))
@@ -355,6 +406,10 @@
     (uuid e79dcfc8-4de1-4c47-9cec-342df5c5b03a)
   )
 
+  (wire (pts (xy 41.91 66.04) (xy 24.13 66.04))
+    (stroke (width 0) (type default))
+    (uuid 0293c574-a787-40bf-b226-da67d29de16e)
+  )
   (wire (pts (xy 24.13 60.96) (xy 21.59 60.96))
     (stroke (width 0) (type default))
     (uuid 09c77115-a480-43c1-84df-8998c03a506f)
@@ -370,6 +425,10 @@
   (wire (pts (xy 54.61 25.4) (xy 57.15 25.4))
     (stroke (width 0) (type default))
     (uuid 353f28ac-ea83-4b36-bf73-293dc1f55cf7)
+  )
+  (wire (pts (xy 24.13 66.04) (xy 24.13 67.31))
+    (stroke (width 0) (type default))
+    (uuid 48dff1a9-469e-41ca-a4ff-de908d02d1b3)
   )
   (wire (pts (xy 21.59 60.96) (xy 21.59 63.5))
     (stroke (width 0) (type default))
@@ -391,6 +450,10 @@
     (stroke (width 0) (type default))
     (uuid 8f4fde3f-ec1a-4ded-ac16-6a49ea5ba824)
   )
+  (wire (pts (xy 17.78 53.34) (xy 41.91 53.34))
+    (stroke (width 0) (type default))
+    (uuid 99b8af18-cc5f-4373-bc3d-7706c5ee190d)
+  )
   (wire (pts (xy 86.36 86.36) (xy 97.79 86.36))
     (stroke (width 0) (type default))
     (uuid aa383e8a-9d60-4fe5-a6f3-f88e9b383de5)
@@ -399,6 +462,10 @@
     (stroke (width 0) (type default))
     (uuid c7fbca54-c834-4e97-8787-276243356e2c)
   )
+  (wire (pts (xy 24.13 72.39) (xy 24.13 74.93))
+    (stroke (width 0) (type default))
+    (uuid dd7e42f9-8998-47ce-b7cf-f49a989f4f70)
+  )
   (wire (pts (xy 38.1 58.42) (xy 41.91 58.42))
     (stroke (width 0) (type default))
     (uuid ddc6cfad-8597-442a-b207-5808d3e12501)
@@ -406,6 +473,32 @@
   (wire (pts (xy 54.61 22.86) (xy 54.61 25.4))
     (stroke (width 0) (type default))
     (uuid f0a955d5-ca3c-4330-a34d-8ec56d6665f1)
+  )
+
+  (symbol (lib_id "Device:C_Small") (at 24.13 69.85 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 1cb84a43-51f3-4b91-a9a7-f2dde54cd4e9)
+    (property "Reference" "C1" (at 26.67 69.2213 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "1uF" (at 26.67 71.7613 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "" (at 24.13 69.85 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 24.13 69.85 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 7da5bb7e-317c-4e48-9229-986cfe3aedc5))
+    (pin "2" (uuid bc717da7-796b-43ae-838c-6c310e22139b))
+    (instances
+      (project "ai03"
+        (path "/38a1a9ff-9c00-4248-947e-eb94ab6d8a39"
+          (reference "C1") (unit 1)
+        )
+      )
+    )
   )
 
   (symbol (lib_id "Device:R_Small") (at 83.82 86.36 90) (unit 1)
@@ -426,7 +519,7 @@
     (pin "1" (uuid 89d676d0-029f-498c-831b-6dfc6abb068a))
     (pin "2" (uuid 8e069b0a-3379-47a8-aab0-fee758a13d55))
     (instances
-      (project "popstar"
+      (project "ai03"
         (path "/38a1a9ff-9c00-4248-947e-eb94ab6d8a39"
           (reference "R1") (unit 1)
         )
@@ -494,7 +587,7 @@
     (pin "8" (uuid 89d1a420-3c50-4885-8192-e2da2cfb2bf2))
     (pin "9" (uuid 01312750-6075-4218-bbc9-5f1e9d464f51))
     (instances
-      (project "popstar"
+      (project "ai03"
         (path "/38a1a9ff-9c00-4248-947e-eb94ab6d8a39"
           (reference "U1") (unit 1)
         )
@@ -519,7 +612,7 @@
     )
     (pin "1" (uuid d81a4d77-c152-45fa-ba80-5d20a31c37bc))
     (instances
-      (project "popstar"
+      (project "ai03"
         (path "/38a1a9ff-9c00-4248-947e-eb94ab6d8a39"
           (reference "#PWR03") (unit 1)
         )
@@ -545,7 +638,7 @@
     (pin "1" (uuid 6bead670-34ac-41f0-b821-4eaeea38f92d))
     (pin "2" (uuid 5a14c853-c909-46cc-9fad-3270f6633cfd))
     (instances
-      (project "popstar"
+      (project "ai03"
         (path "/38a1a9ff-9c00-4248-947e-eb94ab6d8a39"
           (reference "R2") (unit 1)
         )
@@ -570,7 +663,7 @@
     )
     (pin "1" (uuid 32175633-23b9-42bf-9a40-43a8df43e7b6))
     (instances
-      (project "popstar"
+      (project "ai03"
         (path "/38a1a9ff-9c00-4248-947e-eb94ab6d8a39"
           (reference "#PWR01") (unit 1)
         )
@@ -596,9 +689,59 @@
     (pin "1" (uuid db31b593-ea20-4884-837c-1779c954b812))
     (pin "2" (uuid 81e8c565-0e7c-4fee-883c-c0aea83dc728))
     (instances
-      (project "popstar"
+      (project "ai03"
         (path "/38a1a9ff-9c00-4248-947e-eb94ab6d8a39"
           (reference "R3") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:GND") (at 24.13 74.93 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid c5a15be3-2d64-4df2-9a96-4ef03fab7fb2)
+    (property "Reference" "#PWR04" (at 24.13 81.28 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GND" (at 24.13 80.01 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 24.13 74.93 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 24.13 74.93 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 32ee8e1e-5d97-41b6-9faf-f52950c26448))
+    (instances
+      (project "ai03"
+        (path "/38a1a9ff-9c00-4248-947e-eb94ab6d8a39"
+          (reference "#PWR04") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:+5V") (at 17.78 53.34 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid cc9b4b6c-27d6-45bb-bf6b-19dc763c45fe)
+    (property "Reference" "#PWR05" (at 17.78 57.15 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "+5V" (at 17.78 49.53 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 17.78 53.34 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 17.78 53.34 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid b126cfc9-237c-4736-a33b-7657d00f1e7d))
+    (instances
+      (project "ai03"
+        (path "/38a1a9ff-9c00-4248-947e-eb94ab6d8a39"
+          (reference "#PWR05") (unit 1)
         )
       )
     )
@@ -621,7 +764,7 @@
     )
     (pin "1" (uuid 32698c0e-c54f-436d-a49d-6ba21893f268))
     (instances
-      (project "popstar"
+      (project "ai03"
         (path "/38a1a9ff-9c00-4248-947e-eb94ab6d8a39"
           (reference "#PWR02") (unit 1)
         )

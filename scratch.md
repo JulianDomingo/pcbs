@@ -16,9 +16,7 @@
     * 1x `USB_VDD` (USB supply) pin => "can use the same power source as IOVDD" => no need for an extra 100nF cap => 0x 100nF caps
     * 1x `ADC_AVDD` (ADC supply) pin => 1x 100nF cap
     * 1x `VREG_IN` (voltage regulator input supply) pin => 1x 1uF cap
-* 1x `10uF || 4.7uF` pin => Lastly, most people typically add a stronger capacitor (10uF, or 4.7uF) seated
-    the **furthest away** from the MCU to help smooth out low-frequency changes
-    in the input voltage:
+* 1x `10uF || 4.7uF` pin => Lastly, most people typically add a stronger capacitor (10uF, or 4.7uF) to help smooth out low-frequency changes in the input voltage:
     https://www.autodesk.com/products/fusion-360/blog/what-are-decoupling-capacitors/.
 ### VREG_OUT schematic
 * Sometimes you'll need to carefully read the pin descriptions to determine if
