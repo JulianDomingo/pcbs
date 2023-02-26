@@ -23,9 +23,11 @@
 ### VREG_OUT schematic
 * Sometimes you'll need to carefully read the pin descriptions to determine if
     they should be connected to `VREG_OUT` or `VREG_IN`.
+    * 1x `VREG_OUT` pin => 1x 1uF cap
+        * "`The regulator must have 1μF capacitors placed close to its input (VREG_VIN) and output (VREG_VOUT) pins.`" (2.10.1 - Application Circuit)
     * 2x `DVDD` (digital core supply) pins === 2x 100nF caps
-    * "`...The connection between the output pin of the on-chip regulator (VREG_VOUT) and the DVDD supply pins is
-made off-chip, allowing DVDD to be powered from an off-chip power source if
-required...`" (2.9.2 - Digital Core Supply (DVDD))
+        * "`...The connection between the output pin of the on-chip regulator (VREG_VOUT) and the DVDD supply pins is
+    made off-chip, allowing DVDD to be powered from an off-chip power source if
+    required...`" (2.9.2 - Digital Core Supply (DVDD))
 * TODO: how do you determine where to put power / ground symbols in the capacitor
     circuitry?
