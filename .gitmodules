@@ -7,3 +7,6 @@
 [submodule "marbastlib"]
 	path = marbastlib
 	url = https://github.com/ebastler/marbastlib
+[submodule "RP2040-designguide"]
+	path = RP2040-designguide
+	url = https://github.com/Sleepdealr/RP2040-designguide
