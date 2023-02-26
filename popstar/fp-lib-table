@@ -1,0 +1,7 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "marbastlib-mx")(type "KiCad")(uri "/Users/juliandomingo/git/pcbs/marbastlib/marbastlib-mx.pretty")(options "")(descr ""))
+  (lib (name "marbastlib-various")(type "KiCad")(uri "/Users/juliandomingo/git/pcbs/marbastlib/marbastlib-various.pretty")(options "")(descr ""))
+  (lib (name "MX_Only")(type "KiCad")(uri "/Users/juliandomingo/git/pcbs/MX_Alps_Hybrid.pretty/MX_Only.pretty")(options "")(descr ""))
+  (lib (name "random-keyboard-parts")(type "KiCad")(uri "/Users/juliandomingo/git/pcbs/random-keyboard-parts.pretty")(options "")(descr ""))
+)
