@@ -29,3 +29,10 @@
     required...`" (2.9.2 - Digital Core Supply (DVDD))
 * TODO: how do you determine where to put power / ground symbols in the capacitor
     circuitry?
+
+## Debug
+* Used for reprogramming the PCB in the event of a failure (don't interface
+    through USB).
+* ATmega32U4 uses GPIO pins for this (thereby limiting pins for other use like
+    RGB), but luckily RP2040 has its own dedicated pins for debug.
+* 

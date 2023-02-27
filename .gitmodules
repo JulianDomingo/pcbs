@@ -10,3 +10,6 @@
 [submodule "RP2040-designguide"]
 	path = RP2040-designguide
 	url = https://github.com/Sleepdealr/RP2040-designguide
+[submodule "libraries/Connectors_JST.pretty"]
+	path = libraries/Connectors_JST.pretty
+	url = https://github.com/KiCad/Connectors_JST.pretty.git
