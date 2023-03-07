@@ -5,4 +5,5 @@
   (lib (name "random-keyboard-parts")(type "KiCad")(uri "/Users/juliandomingo/git/pcbs/libraries/random-keyboard-parts.pretty")(options "")(descr ""))
   (lib (name "marbastlib-various")(type "KiCad")(uri "/Users/juliandomingo/git/pcbs/libraries/marbastlib/marbastlib-various.pretty")(options "")(descr ""))
   (lib (name "marbastlib-mx")(type "KiCad")(uri "/Users/juliandomingo/git/pcbs/libraries/marbastlib/marbastlib-mx.pretty")(options "")(descr ""))
+  (lib (name "Sleep-Lib")(type "KiCad")(uri "/Users/juliandomingo/git/pcbs/libraries/Sleep-lib/Sleep-Lib.pretty")(options "")(descr ""))
 )
