@@ -2469,7 +2469,7 @@
     (property "Value" "2.25_LEFT_SHIFT" (at 12.7 85.725 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "marbastlib-mx:STAB_MX_P_6.25u" (at 20.32 81.28 0)
+    (property "Footprint" "marbastlib-mx:STAB_MX_2.25u" (at 20.32 81.28 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (at 20.32 81.28 0)
