@@ -1399,11 +1399,11 @@
     (property "ki_keywords" "RGB LED NeoPixel Mini addressable 2020")
     (path "/7b7e0ca3-1d6a-48a7-b8ef-32a16011b189/5b659803-25b7-40b4-8730-11a5fc8507c9")
     (attr smd)
-    (fp_text reference "D6" (at 0 -1.9) (layer "F.SilkS")
+    (fp_text reference "D6" (at 0 1.9125) (layer "F.SilkS")
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp b3db872e-f664-4789-ae9e-b17c9a6b51cd)
     )
-    (fp_text value "WS2812_2020" (at 0 -3.2) (layer "F.Fab")
+    (fp_text value "WS2812_2020" (at 10.31875 1.9125) (layer "F.Fab")
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 322c710c-7a5e-4ecc-bb0b-e1178b94ae46)
     )
@@ -1456,7 +1456,7 @@
 
   (footprint "marbastlib-various:LED_WS2812_2020" (layer "F.Cu")
     (tstamp 1da0265e-f5d3-46e3-a413-0dfa0672fce3)
-    (at 75.40625 117.15)
+    (at 74.6125 117.15)
     (descr "2020 SMD adressable RGB LED with integrated controller")
     (tags "LED RGB NeoPixel")
     (property "Sheetfile" "switch_matrix.kicad_sch")
@@ -1465,11 +1465,11 @@
     (property "ki_keywords" "RGB LED NeoPixel Mini addressable 2020")
     (path "/7b7e0ca3-1d6a-48a7-b8ef-32a16011b189/2231011d-d964-436d-8267-bc0611f5583f")
     (attr smd)
-    (fp_text reference "D5" (at 0 -1.9) (layer "F.SilkS")
+    (fp_text reference "D5" (at 0 1.9125) (layer "F.SilkS")
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 86322ae7-0d57-4f14-b734-1db219b695f3)
     )
-    (fp_text value "WS2812_2020" (at 0 -3.2) (layer "F.Fab")
+    (fp_text value "WS2812_2020" (at 3.96875 -2.05625) (layer "F.Fab")
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 73d03043-0c3a-4c9c-9cc2-bc3ed8df47ba)
     )
@@ -1522,7 +1522,7 @@
 
   (footprint "marbastlib-various:LED_WS2812_2020" (layer "F.Cu")
     (tstamp 206bfdd1-647f-4be0-b955-95a47756aace)
-    (at 64.29375 117.15)
+    (at 65.0875 117.15)
     (descr "2020 SMD adressable RGB LED with integrated controller")
     (tags "LED RGB NeoPixel")
     (property "Sheetfile" "switch_matrix.kicad_sch")
@@ -1531,11 +1531,11 @@
     (property "ki_keywords" "RGB LED NeoPixel Mini addressable 2020")
     (path "/7b7e0ca3-1d6a-48a7-b8ef-32a16011b189/0199f29d-b76f-4ab4-9476-ed218285dfab")
     (attr smd)
-    (fp_text reference "D2" (at 0 -1.9) (layer "F.SilkS")
+    (fp_text reference "D2" (at 0 1.9125) (layer "F.SilkS")
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp bff413e5-2500-4eab-9f79-ae840017955d)
     )
-    (fp_text value "WS2812_2020" (at 0 -3.2) (layer "F.Fab")
+    (fp_text value "WS2812_2020" (at -3.175 -2.05625) (layer "F.Fab")
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 210b22b1-2706-4c1e-a886-628fc668504c)
     )
@@ -2184,7 +2184,7 @@
 
   (footprint "marbastlib-various:LED_WS2812_2020" (layer "F.Cu")
     (tstamp 3a34a0aa-2bc6-4e6a-9047-08bf8b781cd7)
-    (at 279.4 113.18125)
+    (at 279.4 113.50625)
     (descr "2020 SMD adressable RGB LED with integrated controller")
     (tags "LED RGB NeoPixel")
     (property "Sheetfile" "switch_matrix.kicad_sch")
@@ -2193,11 +2193,11 @@
     (property "ki_keywords" "RGB LED NeoPixel Mini addressable 2020")
     (path "/7b7e0ca3-1d6a-48a7-b8ef-32a16011b189/bdcdbf36-9730-40d1-9185-704014d86c44")
     (attr smd)
-    (fp_text reference "D7" (at 0 -1.9) (layer "F.SilkS")
+    (fp_text reference "D7" (at 0 2.38125) (layer "F.SilkS")
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 3cafb838-ff70-4cf7-9607-4df3224a1ca9)
     )
-    (fp_text value "WS2812_2020" (at 0 -3.2) (layer "F.Fab")
+    (fp_text value "WS2812_2020" (at 0 -3.96875) (layer "F.Fab")
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 0df9ad17-3c4f-4bc1-8f53-1e245c7989c7)
     )
@@ -2611,7 +2611,7 @@
 
   (footprint "marbastlib-various:LED_WS2812_2020" (layer "F.Cu")
     (tstamp 4d53e5ba-2243-49aa-8365-683caebf8060)
-    (at 273.84375 117.15)
+    (at 274.6375 117.15)
     (descr "2020 SMD adressable RGB LED with integrated controller")
     (tags "LED RGB NeoPixel")
     (property "Sheetfile" "switch_matrix.kicad_sch")
@@ -2620,11 +2620,11 @@
     (property "ki_keywords" "RGB LED NeoPixel Mini addressable 2020")
     (path "/7b7e0ca3-1d6a-48a7-b8ef-32a16011b189/37d165e1-8da2-4631-a03f-36381efe19fc")
     (attr smd)
-    (fp_text reference "D11" (at 0 -1.9) (layer "F.SilkS")
+    (fp_text reference "D11" (at 0 1.9125) (layer "F.SilkS")
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp c86e6f42-50db-4488-a362-be5bd73ddfa3)
     )
-    (fp_text value "WS2812_2020" (at 0 -3.2) (layer "F.Fab")
+    (fp_text value "WS2812_2020" (at -3.96875 -2.05625) (layer "F.Fab")
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 0cfdfd9c-b2c0-405b-9dd2-14e0cfcff0ef)
     )
@@ -3501,7 +3501,7 @@
 
   (footprint "marbastlib-various:LED_WS2812_2020" (layer "F.Cu")
     (tstamp 7b309df0-8cd5-47ed-92db-ad75075b128e)
-    (at 73.025 123.5)
+    (at 73.025 123.03125)
     (descr "2020 SMD adressable RGB LED with integrated controller")
     (tags "LED RGB NeoPixel")
     (property "Sheetfile" "switch_matrix.kicad_sch")
@@ -3514,7 +3514,7 @@
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 4923e5b5-e7b6-41ab-8bdd-8572545a365c)
     )
-    (fp_text value "WS2812_2020" (at 0 -3.2) (layer "F.Fab")
+    (fp_text value "WS2812_2020" (at 3.96875 2.38125) (layer "F.Fab")
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 2c155b66-5f70-43e9-b90f-a87d38a36801)
     )
@@ -5026,7 +5026,7 @@
 
   (footprint "marbastlib-various:LED_WS2812_2020" (layer "F.Cu")
     (tstamp b79feb9a-827c-4c74-b165-bc56ce4e5c0f)
-    (at 282.575 123.5)
+    (at 282.575 123.03125)
     (descr "2020 SMD adressable RGB LED with integrated controller")
     (tags "LED RGB NeoPixel")
     (property "Sheetfile" "switch_matrix.kicad_sch")
@@ -5039,7 +5039,7 @@
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 1c916af0-36c6-48d2-bc09-c2247f2a2cb7)
     )
-    (fp_text value "WS2812_2020" (at 0 -3.2) (layer "F.Fab")
+    (fp_text value "WS2812_2020" (at 3.96875 2.38125) (layer "F.Fab")
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp c3efd0d8-32e4-4d5c-adb4-2aff1a6ae0e0)
     )
@@ -5147,7 +5147,7 @@
 
   (footprint "marbastlib-various:LED_WS2812_2020" (layer "F.Cu")
     (tstamp ba90182e-d5a6-45c3-bcd9-5f1f8a09bf6e)
-    (at 66.675 123.5)
+    (at 66.675 123.03125)
     (descr "2020 SMD adressable RGB LED with integrated controller")
     (tags "LED RGB NeoPixel")
     (property "Sheetfile" "switch_matrix.kicad_sch")
@@ -5160,7 +5160,7 @@
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp b146fa61-3f77-40d7-840a-b67f99b834a3)
     )
-    (fp_text value "WS2812_2020" (at 0 -3.2) (layer "F.Fab")
+    (fp_text value "WS2812_2020" (at -3.96875 2.38125) (layer "F.Fab")
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp ab9e11ad-856f-466f-8dda-95e64025c8b3)
     )
@@ -5566,7 +5566,7 @@
 
   (footprint "marbastlib-various:LED_WS2812_2020" (layer "F.Cu")
     (tstamp c6d86836-6699-4bc9-b562-7eb03225c017)
-    (at 276.225 123.5)
+    (at 276.225 123.03125)
     (descr "2020 SMD adressable RGB LED with integrated controller")
     (tags "LED RGB NeoPixel")
     (property "Sheetfile" "switch_matrix.kicad_sch")
@@ -5579,7 +5579,7 @@
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 2f396fa8-db78-4d7a-9cf8-f035bd77ccbf)
     )
-    (fp_text value "WS2812_2020" (at 0 -3.2) (layer "F.Fab")
+    (fp_text value "WS2812_2020" (at -3.96875 2.38125) (layer "F.Fab")
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 14ef0651-5edb-455e-b016-b7a79a6eef1c)
     )
@@ -6000,7 +6000,7 @@
 
   (footprint "marbastlib-various:LED_WS2812_2020" (layer "F.Cu")
     (tstamp d4291e6b-6262-4b3c-acf7-ce6810da66c9)
-    (at 69.85 113.18125)
+    (at 69.85 113.50625)
     (descr "2020 SMD adressable RGB LED with integrated controller")
     (tags "LED RGB NeoPixel")
     (property "Sheetfile" "switch_matrix.kicad_sch")
@@ -6009,11 +6009,11 @@
     (property "ki_keywords" "RGB LED NeoPixel Mini addressable 2020")
     (path "/7b7e0ca3-1d6a-48a7-b8ef-32a16011b189/37c5d14f-9711-4857-90e7-e8cd387b4bfe")
     (attr smd)
-    (fp_text reference "D1" (at 0 -1.9) (layer "F.SilkS")
+    (fp_text reference "D1" (at 0 2.38125) (layer "F.SilkS")
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp b186a582-aee2-4ab1-b3ba-1038dc979eea)
     )
-    (fp_text value "WS2812_2020" (at 0 -3.2) (layer "F.Fab")
+    (fp_text value "WS2812_2020" (at 0 -3.96875) (layer "F.Fab")
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 6e3f6d38-87d7-499a-9c0f-666fe419c961)
     )
@@ -7119,11 +7119,11 @@
     (property "ki_keywords" "RGB LED NeoPixel Mini addressable 2020")
     (path "/7b7e0ca3-1d6a-48a7-b8ef-32a16011b189/b5be5ef0-34b3-48bc-9213-18dbc24f918d")
     (attr smd)
-    (fp_text reference "D12" (at 0 -1.9) (layer "F.SilkS")
+    (fp_text reference "D12" (at 0 1.9125) (layer "F.SilkS")
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp dbb21e62-87ff-4b2b-8d8f-99f42b7e4178)
     )
-    (fp_text value "WS2812_2020" (at 0 -3.2) (layer "F.Fab")
+    (fp_text value "WS2812_2020" (at 10.31875 2.70625) (layer "F.Fab")
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 51fcd4a3-dd57-413f-aae4-b18e78b49493)
     )
@@ -7292,7 +7292,7 @@
 
   (footprint "marbastlib-various:LED_WS2812_2020" (layer "F.Cu")
     (tstamp fb684b80-9954-400b-9bdf-49f1608e1007)
-    (at 284.95625 117.15)
+    (at 284.1625 117.15)
     (descr "2020 SMD adressable RGB LED with integrated controller")
     (tags "LED RGB NeoPixel")
     (property "Sheetfile" "switch_matrix.kicad_sch")
@@ -7301,11 +7301,11 @@
     (property "ki_keywords" "RGB LED NeoPixel Mini addressable 2020")
     (path "/7b7e0ca3-1d6a-48a7-b8ef-32a16011b189/c87ebaac-4ba2-46f7-8bb5-b3d2b35dada5")
     (attr smd)
-    (fp_text reference "D8" (at 0 -1.9) (layer "F.SilkS")
+    (fp_text reference "D8" (at 0 1.9125) (layer "F.SilkS")
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 676abb65-0302-4532-921c-c6dfa6d31f29)
     )
-    (fp_text value "WS2812_2020" (at 0 -3.2) (layer "F.Fab")
+    (fp_text value "WS2812_2020" (at 3.96875 -2.05625) (layer "F.Fab")
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp fc7239bc-9a96-41ce-bae0-6c96fcc61021)
     )
@@ -7495,7 +7495,7 @@
     (property "ki_keywords" "capacitor cap")
     (path "/c28e7dc6-36b4-43ce-9d67-ea0a36f3492e")
     (attr smd)
-    (fp_text reference "C14" (at 0 1.16 90) (layer "B.SilkS")
+    (fp_text reference "C14" (at 0 1.16 90) (layer "B.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp ac0a7583-74c5-4e89-8f22-72228eec0ed5)
     )
@@ -7905,7 +7905,7 @@
     (property "ki_keywords" "diode")
     (path "/7b7e0ca3-1d6a-48a7-b8ef-32a16011b189/1a90976f-77e8-4696-8e1f-1b8a6a59f53b")
     (attr smd)
-    (fp_text reference "D26" (at 0 2 90) (layer "B.SilkS")
+    (fp_text reference "D26" (at -0.79375 2.38125 90) (layer "B.SilkS")
         (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp 912fc12c-d525-440a-a070-1cdbca7e53dd)
     )
@@ -8118,7 +8118,7 @@
     (property "ki_keywords" "diode")
     (path "/7b7e0ca3-1d6a-48a7-b8ef-32a16011b189/bc12a36a-d3a2-4ba8-9f00-aa265bd41115")
     (attr smd)
-    (fp_text reference "D72" (at 0 2 90) (layer "B.SilkS")
+    (fp_text reference "D72" (at -0.79375 2.38125 90) (layer "B.SilkS")
         (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp ca13928a-a993-4d66-871d-f62763df58d0)
     )
@@ -8331,7 +8331,7 @@
     (property "ki_keywords" "diode")
     (path "/7b7e0ca3-1d6a-48a7-b8ef-32a16011b189/c73723b5-ac31-49b1-9936-40427d7f7a9e")
     (attr smd)
-    (fp_text reference "D27" (at 0 2 90) (layer "B.SilkS")
+    (fp_text reference "D27" (at -0.79375 -2.38125 90) (layer "B.SilkS")
         (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp 73bd9c70-cbc5-48dc-a474-3b0a0ce3c48e)
     )
@@ -8544,7 +8544,7 @@
     (property "ki_keywords" "diode")
     (path "/7b7e0ca3-1d6a-48a7-b8ef-32a16011b189/ba688d01-106a-4d69-bd5b-c6603a616f5d")
     (attr smd)
-    (fp_text reference "D40" (at 0 2 90) (layer "B.SilkS")
+    (fp_text reference "D40" (at -0.79375 -2.38125 90) (layer "B.SilkS")
         (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp e23dc900-557f-44c8-acd0-63c45e9b5b34)
     )
@@ -8968,7 +8968,7 @@
     (property "ki_keywords" "raspberry pi 2040")
     (path "/4a093965-f71a-4677-b18f-efd960198dfa")
     (attr smd)
-    (fp_text reference "U6" (at 0 4.82 -225) (layer "B.SilkS")
+    (fp_text reference "U6" (at 0 4.82 135) (layer "B.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp a069f039-0a5c-4ae5-89e7-4faa07f33dc9)
     )
@@ -10019,7 +10019,7 @@
     (property "ki_keywords" "R resistor")
     (path "/6295f487-335c-4fdf-a11e-90ccb2550246")
     (attr smd)
-    (fp_text reference "R4" (at 0 1.17 90) (layer "B.SilkS")
+    (fp_text reference "R4" (at 0 1.17 90) (layer "B.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp 36bfd55f-dc0c-4445-9191-62b5f3ed898f)
     )
@@ -10500,7 +10500,7 @@
     (property "ki_keywords" "diode")
     (path "/7b7e0ca3-1d6a-48a7-b8ef-32a16011b189/90e9a353-da52-4e82-8289-36d9f576bcd8")
     (attr smd)
-    (fp_text reference "D39" (at 0 2 90) (layer "B.SilkS")
+    (fp_text reference "D39" (at -0.79375 -2.38125 90) (layer "B.SilkS")
         (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp c5f35ce8-01be-4136-b6c6-3bf48a55b8c8)
     )
@@ -10997,7 +10997,7 @@
     (property "ki_keywords" "quartz ceramic resonator oscillator")
     (path "/ecc45fa6-8336-46c8-9747-8a699757851d")
     (attr smd)
-    (fp_text reference "Y1" (at 0 2.45) (layer "B.SilkS")
+    (fp_text reference "Y1" (at 0 2.45) (layer "B.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp aa9db85b-0821-4fc3-a1ea-1fcf1302cd5f)
     )
@@ -11058,7 +11058,7 @@
     (property "ki_keywords" "capacitor cap")
     (path "/0b9f7c8a-01fb-4354-be2a-dc586681f282")
     (attr smd)
-    (fp_text reference "C13" (at 0 1.16 90) (layer "B.SilkS")
+    (fp_text reference "C13" (at 0 1.16 90) (layer "B.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp a152ffc6-d37b-4a13-8af9-e0fbf342f23e)
     )
@@ -11823,7 +11823,7 @@
     (property "ki_keywords" "diode")
     (path "/7b7e0ca3-1d6a-48a7-b8ef-32a16011b189/f80bfab5-207a-42b9-84d6-1d37b6835eea")
     (attr smd)
-    (fp_text reference "D25" (at 0 2 90) (layer "B.SilkS")
+    (fp_text reference "D25" (at -0.79375 -2.38125 90) (layer "B.SilkS")
         (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp f69a2ecc-b05b-4a2d-865e-9f89b3d209a8)
     )
@@ -12378,8 +12378,6 @@
     (stroke (width 0.15) (type solid)) (layer "F.SilkS") (tstamp 38a0a8ce-a5e2-490c-92d9-4e85d0200ea6))
   (gr_curve (pts (xy 76.601364 120.207594) (xy 76.465656 120.420876) (xy 76.310661 120.660904) (xy 76.124427 120.944882))
     (stroke (width 0.15) (type solid)) (layer "F.SilkS") (tstamp 38b88929-df34-43ea-a56c-41d8c4fb3f02))
-  (gr_line (start 225.31478 108.658347) (end 185.314779 108.658346)
-    (stroke (width 0.15) (type solid)) (layer "F.SilkS") (tstamp 38ce096b-ee89-4aa1-a8cd-213e1593d291))
   (gr_curve (pts (xy 195.91808 115.970319) (xy 195.681526 115.721851) (xy 195.681526 115.275969) (xy 195.681526 115.275969))
     (stroke (width 0.15) (type solid)) (layer "F.SilkS") (tstamp 39225eaf-f01c-479a-a26b-441b84045b2f))
   (gr_curve (pts (xy 64.082481 114.879156) (xy 64.468763 114.70406) (xy 64.952199 114.500439) (xy 65.776316 114.183032))
@@ -12524,8 +12522,6 @@
     (stroke (width 0.15) (type solid)) (layer "F.SilkS") (tstamp 6758c495-5676-409f-a975-7f9afcad9949))
   (gr_curve (pts (xy 285.475638 120.334422) (xy 285.386295 120.47228) (xy 285.289047 120.621215) (xy 285.181432 120.784746))
     (stroke (width 0.15) (type solid)) (layer "F.SilkS") (tstamp 67b2af43-a877-482b-9d1e-808c2c6a2d99))
-  (gr_line (start 225.314778 121.146486) (end 225.31478 108.658347)
-    (stroke (width 0.15) (type solid)) (layer "F.SilkS") (tstamp 67c35619-15c2-4601-a592-d0cb63be7f9e))
   (gr_line (start 190.358177 113.652417) (end 190.664507 113.652417)
     (stroke (width 0.15) (type solid)) (layer "F.SilkS") (tstamp 67c665e9-d125-4249-84d5-f0cd950eacf9))
   (gr_curve (pts (xy 75.525312 114.291062) (xy 76.310524 114.630895) (xy 76.718487 114.852279) (xy 77.071348 115.100259))
@@ -12564,8 +12560,6 @@
     (stroke (width 0.15) (type solid)) (layer "F.SilkS") (tstamp 6eac7225-5936-4e05-bb43-25767591e856))
   (gr_curve (pts (xy 194.645106 115.20279) (xy 194.645106 115.643566) (xy 194.430675 115.931178) (xy 194.430675 115.931178))
     (stroke (width 0.15) (type solid)) (layer "F.SilkS") (tstamp 6ee57c43-511e-42a2-839d-3b5bc4cbeddc))
-  (gr_line (start 185.314779 108.658346) (end 185.314779 121.146486)
-    (stroke (width 0.15) (type solid)) (layer "F.SilkS") (tstamp 705aeece-b271-484d-9a6b-257b74c72b8c))
   (gr_curve (pts (xy 287.012454 118.769591) (xy 286.820625 119.123389) (xy 286.574486 119.542694) (xy 286.151398 120.207617))
     (stroke (width 0.15) (type solid)) (layer "F.SilkS") (tstamp 705d167b-22fd-41a9-99a1-cfb54f7cdba3))
   (gr_curve (pts (xy 210.084181 116.421306) (xy 210.14885 116.274948) (xy 210.143744 115.898842) (xy 210.143744 115.898842))
@@ -12762,8 +12756,6 @@
     (stroke (width 0.15) (type solid)) (layer "F.SilkS") (tstamp a3afac17-8a5c-4fd8-9c12-b39acb03636d))
   (gr_line (start 211.205692 115.197685) (end 211.205694 116.152416)
     (stroke (width 0.15) (type solid)) (layer "F.SilkS") (tstamp a4f66504-632f-4dbe-b236-b134895fe933))
-  (gr_line (start 185.314779 121.146486) (end 225.314778 121.146486)
-    (stroke (width 0.15) (type solid)) (layer "F.SilkS") (tstamp a5f2dc6a-522a-42ae-9629-fffafe918179))
   (gr_curve (pts (xy 198.098136 115.412117) (xy 197.956883 115.492103) (xy 197.956881 115.667392) (xy 197.956881 115.667392))
     (stroke (width 0.15) (type solid)) (layer "F.SilkS") (tstamp a622df6d-1967-4f99-98d2-e4ff0cdca341))
   (gr_curve (pts (xy 207.650552 116.0452) (xy 207.466753 116.222192) (xy 207.088946 116.222191) (xy 207.088946 116.222191))
@@ -13335,7 +13327,6 @@
       386839bf-c04c-4989-b814-a5c413f5aa7f
       38a0a8ce-a5e2-490c-92d9-4e85d0200ea6
       38b88929-df34-43ea-a56c-41d8c4fb3f02
-      38ce096b-ee89-4aa1-a8cd-213e1593d291
       39225eaf-f01c-479a-a26b-441b84045b2f
       3966bc2a-91c3-4a5e-8dce-7182d313532a
       3a314f29-334c-43d4-9eaf-bde419b3642a
@@ -13408,7 +13399,6 @@
       67465fc9-5fbd-4e77-b73e-6149cdc03a9c
       6758c495-5676-409f-a975-7f9afcad9949
       67b2af43-a877-482b-9d1e-808c2c6a2d99
-      67c35619-15c2-4601-a592-d0cb63be7f9e
       67c665e9-d125-4249-84d5-f0cd950eacf9
       689e85c6-8714-4bca-a013-f17bf811f11d
       6936331a-0a1f-4e38-a588-5d7c10c97539
@@ -13428,7 +13418,6 @@
       6e8052aa-c1f7-4c37-9402-d7fd15a597a2
       6eac7225-5936-4e05-bb43-25767591e856
       6ee57c43-511e-42a2-839d-3b5bc4cbeddc
-      705aeece-b271-484d-9a6b-257b74c72b8c
       705d167b-22fd-41a9-99a1-cfb54f7cdba3
       706535b3-8a28-4af1-b22c-5fdc7c827ae2
       709358f7-3102-466c-8ce4-a3673330dc9d
@@ -13527,7 +13516,6 @@
       a3909ba5-7260-4816-adae-6661f0448a69
       a3afac17-8a5c-4fd8-9c12-b39acb03636d
       a4f66504-632f-4dbe-b236-b134895fe933
-      a5f2dc6a-522a-42ae-9629-fffafe918179
       a622df6d-1967-4f99-98d2-e4ff0cdca341
       a6e10b55-3116-4c66-9e36-2a04c76c27a8
       a7c7e868-513c-4571-a51d-f3d512c78304
