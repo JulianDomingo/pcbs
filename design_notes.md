@@ -1,6 +1,13 @@
 # RP2040
 * Data Sheet: https://github.com/Sleepdealr/RP2040-designguide/blob/main/Pico-Resources/rp2040-datasheet.pdf
 
+## Vias
+* Connect traces between different layers of the PCB. Similar terminology as
+    holes in case design (through-hole VIAs => VIA that connects bottom and top
+    side of PCB).
+* Generally better to have 1:1 mapping of vias to component:
+    https://electronics.stackexchange.com/a/260106.
+
 ## Decoupling Capacitor
 * tldr; helps ensure equilibrium with input voltages. Too high? => absorb excess
     energy. Too low? => provide more power to keep voltage stable.
