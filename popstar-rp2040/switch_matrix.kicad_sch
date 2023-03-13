@@ -2900,30 +2900,6 @@
     )
   )
 
-  (symbol (lib_id "marbastlib-mx:MX_stab") (at 20.32 81.28 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 2c820850-8511-403e-8d74-72a8f6ec6a64)
-    (property "Reference" "S4" (at 19.05 80.01 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "2.25_LEFT_SHIFT" (at 12.7 85.725 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "marbastlib-mx:STAB_MX_2.25u" (at 20.32 81.28 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 20.32 81.28 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (instances
-      (project "popstar"
-        (path "/2b78fc64-feb6-4bfa-a478-e5c73a3e42a2/7b7e0ca3-1d6a-48a7-b8ef-32a16011b189"
-          (reference "S4") (unit 1)
-        )
-      )
-    )
-  )
-
   (symbol (lib_id "marbastlib-mx:MX_SW_solder") (at 64.77 32.385 0) (unit 1)
     (in_bom no) (on_board yes) (dnp no)
     (uuid 2d047b27-e870-4422-9cec-0721e11642e4)
@@ -4093,6 +4069,30 @@
       (project "popstar"
         (path "/2b78fc64-feb6-4bfa-a478-e5c73a3e42a2/7b7e0ca3-1d6a-48a7-b8ef-32a16011b189"
           (reference "D56") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "marbastlib-mx:MX_stab") (at 19.685 81.915 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 6a924cb5-c100-46b5-b32d-248785edac4e)
+    (property "Reference" "S4" (at 18.415 80.01 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "2.25_LEFT_SHIFT" (at 12.7 86.36 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "marbastlib-mx:STAB_MX_2.25u" (at 19.685 81.915 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 19.685 81.915 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (instances
+      (project "popstar"
+        (path "/2b78fc64-feb6-4bfa-a478-e5c73a3e42a2/7b7e0ca3-1d6a-48a7-b8ef-32a16011b189"
+          (reference "S4") (unit 1)
         )
       )
     )
