@@ -1,0 +1,2924 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>/Users/juliandomingo/git/pcbs/popstar-rp2040/popstar.kicad_sch</source>
+    <date>Sunday, March 19, 2023 at 08:52:58 PM</date>
+    <tool>Eeschema (7.0.0-0)</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>popstar.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="2" name="/switch_matrix/" tstamps="/7b7e0ca3-1d6a-48a7-b8ef-32a16011b189/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>switch_matrix.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C1">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="LCSC">C52923</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="LCSC" value="C52923"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="popstar.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>bd2267f2-d3d0-44cf-8b6a-951c0a70b92b</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="LCSC">C1525</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="LCSC" value="C1525"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="popstar.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a133f6cb-4907-42a2-862b-5ade1df97769</tstamps>
+    </comp>
+    <comp ref="C3">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="LCSC">C1525</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="LCSC" value="C1525"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="popstar.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>260ed6c9-a504-4d45-bb16-c0f134fbfcb2</tstamps>
+    </comp>
+    <comp ref="C4">
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="LCSC">C15525</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="LCSC" value="C15525"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="popstar.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>659a48dd-becb-4f7d-8f5e-5fe832ac48ed</tstamps>
+    </comp>
+    <comp ref="C5">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="LCSC">C52923</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="LCSC" value="C52923"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="popstar.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>928c4acc-b0c5-48ae-a96a-474f4d3a46eb</tstamps>
+    </comp>
+    <comp ref="C6">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="LCSC">C1525</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="LCSC" value="C1525"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="popstar.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>31f5f783-59b2-4118-b75b-b8da608f6c7a</tstamps>
+    </comp>
+    <comp ref="C7">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="LCSC">1525</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="LCSC" value="1525"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="popstar.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>13f4d6e2-cc59-4963-aaa3-64fcb05fd292</tstamps>
+    </comp>
+    <comp ref="C8">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="LCSC">1525</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="LCSC" value="1525"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="popstar.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a8513b90-372f-40a3-9e5a-71f24297d7cc</tstamps>
+    </comp>
+    <comp ref="C9">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="LCSC">C1525</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="LCSC" value="C1525"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="popstar.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>973e08a0-e087-4989-a06f-8b8b30a1cca4</tstamps>
+    </comp>
+    <comp ref="C10">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="LCSC">C1525</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="LCSC" value="C1525"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="popstar.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7d3fa20a-fa6f-4a1f-8d0a-d3ee97723215</tstamps>
+    </comp>
+    <comp ref="C11">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="LCSC">C1525</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="LCSC" value="C1525"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="popstar.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>35cca71d-d324-4d38-80b7-93ede365175d</tstamps>
+    </comp>
+    <comp ref="C12">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="LCSC">C1525</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="LCSC" value="C1525"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="popstar.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7fa7235b-d907-482a-a997-49cb89456e0c</tstamps>
+    </comp>
+    <comp ref="C13">
+      <value>22pF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="LCSC">C1555</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="LCSC" value="C1555"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="popstar.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0b9f7c8a-01fb-4354-be2a-dc586681f282</tstamps>
+    </comp>
+    <comp ref="C14">
+      <value>22pF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="LCSC">C1555</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="LCSC" value="C1555"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="popstar.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c28e7dc6-36b4-43ce-9d67-ea0a36f3492e</tstamps>
+    </comp>
+    <comp ref="C15">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="LCSC">C52923</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="LCSC" value="C52923"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="popstar.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>15888fc6-21af-4605-9e76-a541c6445332</tstamps>
+    </comp>
+    <comp ref="C16">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="LCSC">C52923</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="LCSC" value="C52923"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="popstar.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f609b738-e462-4572-b9d1-0738bdf52ff8</tstamps>
+    </comp>
+    <comp ref="C17">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="LCSC">C1525</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="LCSC" value="C1525"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="popstar.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1b2b9529-031f-4b9b-9342-3f99c9125852</tstamps>
+    </comp>
+    <comp ref="F1">
+      <value>500mA</value>
+      <footprint>Fuse:Fuse_1206_3216Metric</footprint>
+      <fields>
+        <field name="LCSC">C135342</field>
+      </fields>
+      <libsource lib="Device" part="Polyfuse_Small" description="Resettable fuse, polymeric positive temperature coefficient, small symbol"/>
+      <property name="LCSC" value="C135342"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="popstar.kicad_sch"/>
+      <property name="ki_description" value="Resettable fuse, polymeric positive temperature coefficient, small symbol"/>
+      <property name="ki_keywords" value="resettable fuse PTC PPTC polyfuse polyswitch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5772691d-61bb-4cec-8607-5ae1c18f6955</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>JST SH 4-pin</value>
+      <footprint>Connector_JST:JST_SH_SM04B-SRSS-TB_1x04-1MP_P1.00mm_Horizontal</footprint>
+      <fields>
+        <field name="LCSC">C160404</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x04" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="LCSC" value="C160404"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="popstar.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>bbe9115b-0a04-4c5d-bfc7-18c36757882d</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="LCSC">C25744</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="LCSC" value="C25744"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="popstar.kicad_sch"/>
+      <property name="ki_description" value="Resistor, small symbol"/>
+      <property name="ki_keywords" value="R resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>cb5e2350-e61a-4df4-a79a-2b3845df3465</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>27R</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC">C25190</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="LCSC" value="C25190"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="popstar.kicad_sch"/>
+      <property name="ki_description" value="Resistor, small symbol"/>
+      <property name="ki_keywords" value="R resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0d2f039b-2d4e-4860-97e4-659c4d90ee7d</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>27R</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC">C25190</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="LCSC" value="C25190"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="popstar.kicad_sch"/>
+      <property name="ki_description" value="Resistor, small symbol"/>
+      <property name="ki_keywords" value="R resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7c23d59b-e0ef-49b6-ad46-7f9329c02637</tstamps>
+    </comp>
+    <comp ref="R4">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="LCSC">C11702</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="LCSC" value="C11702"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="popstar.kicad_sch"/>
+      <property name="ki_description" value="Resistor, small symbol"/>
+      <property name="ki_keywords" value="R resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6295f487-335c-4fdf-a11e-90ccb2550246</tstamps>
+    </comp>
+    <comp ref="R5">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="LCSC">C11702</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="LCSC" value="C11702"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="popstar.kicad_sch"/>
+      <property name="ki_description" value="Resistor, small symbol"/>
+      <property name="ki_keywords" value="R resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d9ba2856-336f-4778-9b88-fbddfddfa2ad</tstamps>
+    </comp>
+    <comp ref="U2">
+      <value>XC6206PxxxMR</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-3</footprint>
+      <datasheet>https://www.torexsemi.com/file/xc6206/XC6206.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C5446</field>
+      </fields>
+      <libsource lib="Regulator_Linear" part="XC6206PxxxMR" description="Positive 60-250mA Low Dropout Regulator, Fixed Output, SOT-23"/>
+      <property name="LCSC" value="C5446"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="popstar.kicad_sch"/>
+      <property name="ki_description" value="Positive 60-250mA Low Dropout Regulator, Fixed Output, SOT-23"/>
+      <property name="ki_keywords" value="Torex LDO Voltage Regulator Fixed Positive"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5a5a4276-ef23-4122-94d3-a680ceb620a7</tstamps>
+    </comp>
+    <comp ref="U3">
+      <value>SRV05-4</value>
+      <footprint>marbastlib-various:SOT-23-6-routable</footprint>
+      <datasheet>http://www.onsemi.com/pub/Collateral/SRV05-4-D.PDF</datasheet>
+      <fields>
+        <field name="LCSC">C85364</field>
+      </fields>
+      <libsource lib="marbastlib-various" part="SRV05-4" description="ESD Protection Diodes with Low Clamping Voltage, SOT-23-6"/>
+      <property name="LCSC" value="C85364"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="popstar.kicad_sch"/>
+      <property name="ki_description" value="ESD Protection Diodes with Low Clamping Voltage, SOT-23-6"/>
+      <property name="ki_keywords" value="ESD protection diodes"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>12249452-9c25-4ef7-847a-b6c7a5861832</tstamps>
+    </comp>
+    <comp ref="U4">
+      <value>W25Q128JVS</value>
+      <footprint>Package_SO:SOIC-8_5.23x5.23mm_P1.27mm</footprint>
+      <datasheet>http://www.winbond.com/resource-files/w25q128jv_dtr%20revc%2003272018%20plus.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C97521</field>
+      </fields>
+      <libsource lib="Memory_Flash" part="W25Q128JVS" description="128Mb Serial Flash Memory, Standard/Dual/Quad SPI, SOIC-8"/>
+      <property name="LCSC" value="C97521"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="popstar.kicad_sch"/>
+      <property name="ki_description" value="128Mb Serial Flash Memory, Standard/Dual/Quad SPI, SOIC-8"/>
+      <property name="ki_keywords" value="flash memory SPI QPI DTR"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e011efe6-3353-4fd8-b98e-19d457ed60a5</tstamps>
+    </comp>
+    <comp ref="U6">
+      <value>RP2040</value>
+      <footprint>Sleep-Lib:RP2040-QFN-56</footprint>
+      <datasheet>https://datasheets.raspberrypi.com/rp2040/rp2040-datasheet.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C2040</field>
+      </fields>
+      <libsource lib="Sleep-lib" part="RP2040" description=""/>
+      <property name="LCSC" value="C2040"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="popstar.kicad_sch"/>
+      <property name="ki_keywords" value="raspberry pi 2040"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4a093965-f71a-4677-b18f-efd960198dfa</tstamps>
+    </comp>
+    <comp ref="Y1">
+      <value>12MHz</value>
+      <footprint>Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm</footprint>
+      <fields>
+        <field name="LCSC">C9002</field>
+      </fields>
+      <libsource lib="Device" part="Crystal_GND24_Small" description="Four pin crystal, GND on pins 2 and 4, small symbol"/>
+      <property name="LCSC" value="C9002"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="popstar.kicad_sch"/>
+      <property name="ki_description" value="Four pin crystal, GND on pins 2 and 4, small symbol"/>
+      <property name="ki_keywords" value="quartz ceramic resonator oscillator"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ecc45fa6-8336-46c8-9747-8a699757851d</tstamps>
+    </comp>
+    <comp ref="C18">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="LCSC">C1525</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="LCSC" value="C1525"/>
+      <property name="Sheetname" value="switch_matrix"/>
+      <property name="Sheetfile" value="switch_matrix.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/switch_matrix/" tstamps="/7b7e0ca3-1d6a-48a7-b8ef-32a16011b189/"/>
+      <tstamps>4f6d8d1e-1c9a-41ae-bfa1-0fa6182ca183</tstamps>
+    </comp>
+    <comp ref="C19">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="LCSC">C1525</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="LCSC" value="C1525"/>
+      <property name="Sheetname" value="switch_matrix"/>
+      <property name="Sheetfile" value="switch_matrix.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/switch_matrix/" tstamps="/7b7e0ca3-1d6a-48a7-b8ef-32a16011b189/"/>
+      <tstamps>3e8505fe-a881-473c-9753-f7823f37e25e</tstamps>
+    </comp>
+    <comp ref="C20">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="LCSC">C1525</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="LCSC" value="C1525"/>
+      <property name="Sheetname" value="switch_matrix"/>
+      <property name="Sheetfile" value="switch_matrix.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/switch_matrix/" tstamps="/7b7e0ca3-1d6a-48a7-b8ef-32a16011b189/"/>
+      <tstamps>87abf083-1fcc-42c6-82ed-4db434eedb63</tstamps>
+    </comp>
+    <comp ref="C21">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="LCSC">C1525</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="LCSC" value="C1525"/>
+      <property name="Sheetname" value="switch_matrix"/>
+      <property name="Sheetfile" value="switch_matrix.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/switch_matrix/" tstamps="/7b7e0ca3-1d6a-48a7-b8ef-32a16011b189/"/>
+      <tstamps>81b43809-832c-413a-a515-75f8257c451c</tstamps>
+    </comp>
+    <comp ref="C22">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="LCSC">C1525</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="LCSC" value="C1525"/>
+      <property name="Sheetname" value="switch_matrix"/>
+      <property name="Sheetfile" value="switch_matrix.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/switch_matrix/" tstamps="/7b7e0ca3-1d6a-48a7-b8ef-32a16011b189/"/>
+      <tstamps>cf09df99-08c0-4142-b90b-93529c7bbadf</tstamps>
+    </comp>
+    <comp ref="C23">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="LCSC">C1525</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="LCSC" value="C1525"/>
+      <property name="Sheetname" value="switch_matrix"/>
+      <property name="Sheetfile" value="switch_matrix.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/switch_matrix/" tstamps="/7b7e0ca3-1d6a-48a7-b8ef-32a16011b189/"/>
+      <tstamps>400f041e-634d-4088-a7be-84000ca50bde</tstamps>
+    </comp>
+    <comp ref="C24">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="LCSC">C1525</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="LCSC" value="C1525"/>
+      <property name="Sheetname" value="switch_matrix"/>
+      <property name="Sheetfile" value="switch_matrix.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/switch_matrix/" tstamps="/7b7e0ca3-1d6a-48a7-b8ef-32a16011b189/"/>
+      <tstamps>456beba7-906d-4844-81b9-53a39ee1fab9</tstamps>
+    </comp>
+    <comp ref="C25">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="LCSC">C1525</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="LCSC" value="C1525"/>
+      <property name="Sheetname" value="switch_matrix"/>
+      <property name="Sheetfile" value="switch_matrix.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/switch_matrix/" tstamps="/7b7e0ca3-1d6a-48a7-b8ef-32a16011b189/"/>
+      <tstamps>f8c00db0-1fd8-461e-a5b8-837fc039a7e0</tstamps>
+    </comp>
+    <comp ref="C26">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="LCSC">C1525</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="LCSC" value="C1525"/>
+      <property name="Sheetname" value="switch_matrix"/>
+      <property name="Sheetfile" value="switch_matrix.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/switch_matrix/" tstamps="/7b7e0ca3-1d6a-48a7-b8ef-32a16011b189/"/>
+      <tstamps>74cd7b27-d22c-4195-a9b6-c9a0683cd32c</tstamps>
+    </comp>
+    <comp ref="C27">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="LCSC">C1525</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="LCSC" value="C1525"/>
+      <property name="Sheetname" value="switch_matrix"/>
+      <property name="Sheetfile" value="switch_matrix.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/switch_matrix/" tstamps="/7b7e0ca3-1d6a-48a7-b8ef-32a16011b189/"/>
+      <tstamps>d2631905-8654-431e-944e-5513846b5a80</tstamps>
+    </comp>
+    <comp ref="C28">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="LCSC">C1525</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="LCSC" value="C1525"/>
+      <property name="Sheetname" value="switch_matrix"/>
+      <property name="Sheetfile" value="switch_matrix.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/switch_matrix/" tstamps="/7b7e0ca3-1d6a-48a7-b8ef-32a16011b189/"/>
+      <tstamps>9c92facb-dc80-45f8-b3f4-a3ac9fc9f426</tstamps>
+    </comp>
+    <comp ref="C29">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="LCSC">C1525</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="LCSC" value="C1525"/>
+      <property name="Sheetname" value="switch_matrix"/>
+      <property name="Sheetfile" value="switch_matrix.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/switch_matrix/" tstamps="/7b7e0ca3-1d6a-48a7-b8ef-32a16011b189/"/>
+      <tstamps>24ce8f29-8632-4c7e-a75d-fd666bd0ede0</tstamps>
+    </comp>
+    <comp ref="C30">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="LCSC">C1525</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="LCSC" value="C1525"/>
+      <property name="Sheetname" value="switch_matrix"/>
+      <property name="Sheetfile" value="switch_matrix.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/switch_matrix/" tstamps="/7b7e0ca3-1d6a-48a7-b8ef-32a16011b189/"/>
+      <tstamps>20ed0188-6d4c-430b-9d3f-3aabd0276c93</tstamps>
+    </comp>
+    <comp ref="D1">
+      <value>SK6812MINI-E</value>
+      <footprint>marbastlib-various:LED_6028R</footprint>
+      <datasheet>https://www.world-semi.com/DownLoadFile/139</datasheet>
+      <fields>
+        <field name="LCSC">C5149201</field>
+      </fields>
+      <libsource lib="marbastlib-various" part="SK6812MINI-E" description="Reverse mount adressable LED (WS2812 protocol)"/>
+      <property name="LCSC" value="C5149201"/>
+      <property name="Sheetname" value="switch_matrix"/>
+      <property name="Sheetfile" value="switch_matrix.kicad_sch"/>
+      <property name="ki_description" value="Reverse mount adressable LED (WS2812 protocol)"/>
+      <property name="ki_keywords" value="reverse mount led revmount rgb"/>
+      <sheetpath names="/switch_matrix/" tstamps="/7b7e0ca3-1d6a-48a7-b8ef-32a16011b189/"/>
+      <tstamps>37c5d14f-9711-4857-90e7-e8cd387b4bfe</tstamps>
+    </comp>
+    <comp ref="D2">
+      <value>SK6812MINI-E</value>
+      <footprint>marbastlib-various:LED_6028R</footprint>
+      <datasheet>https://www.world-semi.com/DownLoadFile/139</datasheet>
+      <fields>
+        <field name="LCSC">C5149201</field>
+      </fields>
+      <libsource lib="" part="SK6812MINI-E_2" description="Reverse mount adressable LED (WS2812 protocol)"/>
+      <property name="LCSC" value="C5149201"/>
+      <property name="Sheetname" value="switch_matrix"/>
+      <property name="Sheetfile" value="switch_matrix.kicad_sch"/>
+      <property name="ki_description" value="Reverse mount adressable LED (WS2812 protocol)"/>
+      <property name="ki_keywords" value="reverse mount led revmount rgb"/>
+      <sheetpath names="/switch_matrix/" tstamps="/7b7e0ca3-1d6a-48a7-b8ef-32a16011b189/"/>
+      <tstamps>0199f29d-b76f-4ab4-9476-ed218285dfab</tstamps>
+    </comp>
+    <comp ref="D3">
+      <value>SK6812MINI-E</value>
+      <footprint>marbastlib-various:LED_6028R</footprint>
+      <datasheet>https://www.world-semi.com/DownLoadFile/139</datasheet>
+      <fields>
+        <field name="LCSC">C5149201</field>
+      </fields>
+      <libsource lib="" part="SK6812MINI-E_3" description="Reverse mount adressable LED (WS2812 protocol)"/>
+      <property name="LCSC" value="C5149201"/>
+      <property name="Sheetname" value="switch_matrix"/>
+      <property name="Sheetfile" value="switch_matrix.kicad_sch"/>
+      <property name="ki_description" value="Reverse mount adressable LED (WS2812 protocol)"/>
+      <property name="ki_keywords" value="reverse mount led revmount rgb"/>
+      <sheetpath names="/switch_matrix/" tstamps="/7b7e0ca3-1d6a-48a7-b8ef-32a16011b189/"/>
+      <tstamps>05422b7d-682c-4451-95fc-2e8c3744d029</tstamps>
+    </comp>
+    <comp ref="D4">
+      <value>SK6812MINI-E</value>
+      <footprint>marbastlib-various:LED_6028R</footprint>
+      <datasheet>https://www.world-semi.com/DownLoadFile/139</datasheet>
+      <fields>
+        <field name="LCSC">C5149201</field>
+      </fields>
+      <libsource lib="" part="SK6812MINI-E_4" description="Reverse mount adressable LED (WS2812 protocol)"/>
+      <property name="LCSC" value="C5149201"/>
+      <property name="Sheetname" value="switch_matrix"/>
+      <property name="Sheetfile" value="switch_matrix.kicad_sch"/>
+      <property name="ki_description" value="Reverse mount adressable LED (WS2812 protocol)"/>
+      <property name="ki_keywords" value="reverse mount led revmount rgb"/>
+      <sheetpath names="/switch_matrix/" tstamps="/7b7e0ca3-1d6a-48a7-b8ef-32a16011b189/"/>
+      <tstamps>1226d0a6-5a57-4110-aec4-bd494d652b66</tstamps>
+    </comp>
+    <comp ref="D5">
+      <value>SK6812MINI-E</value>
+      <footprint>marbastlib-various:LED_6028R</footprint>
+      <datasheet>https://www.world-semi.com/DownLoadFile/139</datasheet>
+      <fields>
+        <field name="LCSC">C5149201</field>
+      </fields>
+      <libsource lib="" part="SK6812MINI-E_5" description="Reverse mount adressable LED (WS2812 protocol)"/>
+      <property name="LCSC" value="C5149201"/>
+      <property name="Sheetname" value="switch_matrix"/>
+      <property name="Sheetfile" value="switch_matrix.kicad_sch"/>
+      <property name="ki_description" value="Reverse mount adressable LED (WS2812 protocol)"/>
+      <property name="ki_keywords" value="reverse mount led revmount rgb"/>
+      <sheetpath names="/switch_matrix/" tstamps="/7b7e0ca3-1d6a-48a7-b8ef-32a16011b189/"/>
+      <tstamps>06d92cb8-a397-4122-94c7-a11fc6ea063b</tstamps>
+    </comp>
+    <comp ref="D6">
+      <value>SK6812MINI-E</value>
+      <footprint>marbastlib-various:LED_6028R</footprint>
+      <datasheet>https://www.world-semi.com/DownLoadFile/139</datasheet>
+      <fields>
+        <field name="LCSC">C5149201</field>
+      </fields>
+      <libsource lib="" part="SK6812MINI-E_6" description="Reverse mount adressable LED (WS2812 protocol)"/>
+      <property name="LCSC" value="C5149201"/>
+      <property name="Sheetname" value="switch_matrix"/>
+      <property name="Sheetfile" value="switch_matrix.kicad_sch"/>
+      <property name="ki_description" value="Reverse mount adressable LED (WS2812 protocol)"/>
+      <property name="ki_keywords" value="reverse mount led revmount rgb"/>
+      <sheetpath names="/switch_matrix/" tstamps="/7b7e0ca3-1d6a-48a7-b8ef-32a16011b189/"/>
+      <tstamps>9ec977c1-5688-45f8-a14a-b6a06c3aa586</tstamps>
+    </comp>
+    <comp ref="D7">
+      <value>SK6812MINI-E</value>
+      <footprint>marbastlib-various:LED_6028R</footprint>
+      <datasheet>https://www.world-semi.com/DownLoadFile/139</datasheet>
+      <fields>
+        <field name="LCSC">C5149201</field>
+      </fields>
+      <libsource lib="" part="SK6812MINI-E_7" description="Reverse mount adressable LED (WS2812 protocol)"/>
+      <property name="LCSC" value="C5149201"/>
+      <property name="Sheetname" value="switch_matrix"/>
+      <property name="Sheetfile" value="switch_matrix.kicad_sch"/>
+      <property name="ki_description" value="Reverse mount adressable LED (WS2812 protocol)"/>
+      <property name="ki_keywords" value="reverse mount led revmount rgb"/>
+      <sheetpath names="/switch_matrix/" tstamps="/7b7e0ca3-1d6a-48a7-b8ef-32a16011b189/"/>
+      <tstamps>bfb3ffd6-7fdc-4e23-8be1-368858820e5a</tstamps>
+    </comp>
+    <comp ref="D8">
+      <value>SK6812MINI-E</value>
+      <footprint>marbastlib-various:LED_6028R</footprint>
+      <datasheet>https://www.world-semi.com/DownLoadFile/139</datasheet>
+      <fields>
+        <field name="LCSC">C5149201</field>
+      </fields>
+      <libsource lib="" part="SK6812MINI-E_8" description="Reverse mount adressable LED (WS2812 protocol)"/>
+      <property name="LCSC" value="C5149201"/>
+      <property name="Sheetname" value="switch_matrix"/>
+      <property name="Sheetfile" value="switch_matrix.kicad_sch"/>
+      <property name="ki_description" value="Reverse mount adressable LED (WS2812 protocol)"/>
+      <property name="ki_keywords" value="reverse mount led revmount rgb"/>
+      <sheetpath names="/switch_matrix/" tstamps="/7b7e0ca3-1d6a-48a7-b8ef-32a16011b189/"/>
+      <tstamps>720f2ff3-54ab-4b33-abd7-e9f1871c5c40</tstamps>
+    </comp>
+    <comp ref="D9">
+      <value>SK6812MINI-E</value>
+      <footprint>marbastlib-various:LED_6028R</footprint>
+      <datasheet>https://www.world-semi.com/DownLoadFile/139</datasheet>
+      <fields>
+        <field name="LCSC">C5149201</field>
+      </fields>
+      <libsource lib="" part="SK6812MINI-E_9" description="Reverse mount adressable LED (WS2812 protocol)"/>
+      <property name="LCSC" value="C5149201"/>
+      <property name="Sheetname" value="switch_matrix"/>
+      <property name="Sheetfile" value="switch_matrix.kicad_sch"/>
+      <property name="ki_description" value="Reverse mount adressable LED (WS2812 protocol)"/>
+      <property name="ki_keywords" value="reverse mount led revmount rgb"/>
+      <sheetpath names="/switch_matrix/" tstamps="/7b7e0ca3-1d6a-48a7-b8ef-32a16011b189/"/>
+      <tstamps>8f6ff88a-caad-4d1e-89eb-67f64a033aa8</tstamps>
+    </comp>
+    <comp ref="D10">
+      <value>SK6812MINI-E</value>
+      <footprint>marbastlib-various:LED_6028R</footprint>
+      <datasheet>https://www.world-semi.com/DownLoadFile/139</datasheet>
+      <fields>
+        <field name="LCSC">C5149201</field>
+      </fields>
+      <libsource lib="" part="SK6812MINI-E_10" description="Reverse mount adressable LED (WS2812 protocol)"/>
+      <property name="LCSC" value="C5149201"/>
+      <property name="Sheetname" value="switch_matrix"/>
+      <property name="Sheetfile" value="switch_matrix.kicad_sch"/>
+      <property name="ki_description" value="Reverse mount adressable LED (WS2812 protocol)"/>
+      <property name="ki_keywords" value="reverse mount led revmount rgb"/>
+      <sheetpath names="/switch_matrix/" tstamps="/7b7e0ca3-1d6a-48a7-b8ef-32a16011b189/"/>
+      <tstamps>0ee3465a-8ce6-42f8-a1ef-ea4ef9641de6</tstamps>
+    </comp>
+    <comp ref="D11">
+      <value>SK6812MINI-E</value>
+      <footprint>marbastlib-various:LED_6028R</footprint>
+      <datasheet>https://www.world-semi.com/DownLoadFile/139</datasheet>
+      <fields>
+        <field name="LCSC">C5149201</field>
+      </fields>
+      <libsource lib="" part="SK6812MINI-E_11" description="Reverse mount adressable LED (WS2812 protocol)"/>
+      <property name="LCSC" value="C5149201"/>
+      <property name="Sheetname" value="switch_matrix"/>
+      <property name="Sheetfile" value="switch_matrix.kicad_sch"/>
+      <property name="ki_description" value="Reverse mount adressable LED (WS2812 protocol)"/>
+      <property name="ki_keywords" value="reverse mount led revmount rgb"/>
+      <sheetpath names="/switch_matrix/" tstamps="/7b7e0ca3-1d6a-48a7-b8ef-32a16011b189/"/>
+      <tstamps>a22e2508-e31f-4b11-8876-7b07b28d1aad</tstamps>
+    </comp>
+    <comp ref="D12">
+      <value>SK6812MINI-E</value>
+      <footprint>marbastlib-various:LED_6028R</footprint>
+      <datasheet>https://www.world-semi.com/DownLoadFile/139</datasheet>
+      <fields>
+        <field name="LCSC">C5149201</field>
+      </fields>
+      <libsource lib="" part="SK6812MINI-E_1" description="Reverse mount adressable LED (WS2812 protocol)"/>
+      <property name="LCSC" value="C5149201"/>
+      <property name="Sheetname" value="switch_matrix"/>
+      <property name="Sheetfile" value="switch_matrix.kicad_sch"/>
+      <property name="ki_description" value="Reverse mount adressable LED (WS2812 protocol)"/>
+      <property name="ki_keywords" value="reverse mount led revmount rgb"/>
+      <sheetpath names="/switch_matrix/" tstamps="/7b7e0ca3-1d6a-48a7-b8ef-32a16011b189/"/>
+      <tstamps>0200393b-2b46-40d7-982a-4a1831638c01</tstamps>
+    </comp>
+    <comp ref="D13">
+      <value>D_Small</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <fields>
+        <field name="LCSC">C81598</field>
+      </fields>
+      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
+      <property name="LCSC" value="C81598"/>
+      <property name="Sheetname" value="switch_matrix"/>
+      <property name="Sheetfile" value="switch_matrix.kicad_sch"/>
+      <property name="ki_description" value="Diode, small symbol"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/switch_matrix/" tstamps="/7b7e0ca3-1d6a-48a7-b8ef-32a16011b189/"/>
+      <tstamps>ff33893c-11c8-405e-8c71-6759816f4afe</tstamps>
+    </comp>
+    <comp ref="D14">
+      <value>D_Small</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <fields>
+        <field name="LCSC">C81598</field>
+      </fields>
+      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
+      <property name="LCSC" value="C81598"/>
+      <property name="Sheetname" value="switch_matrix"/>
+      <property name="Sheetfile" value="switch_matrix.kicad_sch"/>
+      <property name="ki_description" value="Diode, small symbol"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/switch_matrix/" tstamps="/7b7e0ca3-1d6a-48a7-b8ef-32a16011b189/"/>
+      <tstamps>a6350d76-4897-4f76-8853-ba54efb03ec0</tstamps>
+    </comp>
+    <comp ref="D15">
+      <value>D_Small</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <fields>
+        <field name="LCSC">C81598</field>
+      </fields>
+      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
+      <property name="LCSC" value="C81598"/>
+      <property name="Sheetname" value="switch_matrix"/>
+      <property name="Sheetfile" value="switch_matrix.kicad_sch"/>
+      <property name="ki_description" value="Diode, small symbol"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/switch_matrix/" tstamps="/7b7e0ca3-1d6a-48a7-b8ef-32a16011b189/"/>
+      <tstamps>9a58ec2d-7e08-45f7-a41b-440d6a7a5d5d</tstamps>
+    </comp>
+    <comp ref="D16">
+      <value>D_Small</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <fields>
+        <field name="LCSC">C81598</field>
+      </fields>
+      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
+      <property name="LCSC" value="C81598"/>
+      <property name="Sheetname" value="switch_matrix"/>
+      <property name="Sheetfile" value="switch_matrix.kicad_sch"/>
+      <property name="ki_description" value="Diode, small symbol"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/switch_matrix/" tstamps="/7b7e0ca3-1d6a-48a7-b8ef-32a16011b189/"/>
+      <tstamps>2c152c9b-0a15-4794-8605-b0ce83a437a7</tstamps>
+    </comp>
+    <comp ref="D17">
+      <value>D_Small</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <fields>
+        <field name="LCSC">C81598</field>
+      </fields>
+      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
+      <property name="LCSC" value="C81598"/>
+      <property name="Sheetname" value="switch_matrix"/>
+      <property name="Sheetfile" value="switch_matrix.kicad_sch"/>
+      <property name="ki_description" value="Diode, small symbol"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/switch_matrix/" tstamps="/7b7e0ca3-1d6a-48a7-b8ef-32a16011b189/"/>
+      <tstamps>f4fcbdb9-db08-453d-a69b-239ff1030855</tstamps>
+    </comp>
+    <comp ref="D18">
+      <value>D_Small</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <fields>
+        <field name="LCSC">C81598</field>
+      </fields>
+      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
+      <property name="LCSC" value="C81598"/>
+      <property name="Sheetname" value="switch_matrix"/>
+      <property name="Sheetfile" value="switch_matrix.kicad_sch"/>
+      <property name="ki_description" value="Diode, small symbol"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/switch_matrix/" tstamps="/7b7e0ca3-1d6a-48a7-b8ef-32a16011b189/"/>
+      <tstamps>df1a6240-f169-44ba-b9e7-83fe262458f1</tstamps>
+    </comp>
+    <comp ref="D19">
+      <value>D_Small</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <fields>
+        <field name="LCSC">C81598</field>
+      </fields>
+      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
+      <property name="LCSC" value="C81598"/>
+      <property name="Sheetname" value="switch_matrix"/>
+      <property name="Sheetfile" value="switch_matrix.kicad_sch"/>
+      <property name="ki_description" value="Diode, small symbol"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/switch_matrix/" tstamps="/7b7e0ca3-1d6a-48a7-b8ef-32a16011b189/"/>
+      <tstamps>b2cc749b-76e3-42fe-a585-e8fd9116fe87</tstamps>
+    </comp>
+    <comp ref="D20">
+      <value>D_Small</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <fields>
+        <field name="LCSC">C81598</field>
+      </fields>
+      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
+      <property name="LCSC" value="C81598"/>
+      <property name="Sheetname" value="switch_matrix"/>
+      <property name="Sheetfile" value="switch_matrix.kicad_sch"/>
+      <property name="ki_description" value="Diode, small symbol"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/switch_matrix/" tstamps="/7b7e0ca3-1d6a-48a7-b8ef-32a16011b189/"/>
+      <tstamps>6cb15148-75db-4589-a925-dfe084c56814</tstamps>
+    </comp>
+    <comp ref="D21">
+      <value>D_Small</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <fields>
+        <field name="LCSC">C81598</field>
+      </fields>
+      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
+      <property name="LCSC" value="C81598"/>
+      <property name="Sheetname" value="switch_matrix"/>
+      <property name="Sheetfile" value="switch_matrix.kicad_sch"/>
+      <property name="ki_description" value="Diode, small symbol"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/switch_matrix/" tstamps="/7b7e0ca3-1d6a-48a7-b8ef-32a16011b189/"/>
+      <tstamps>bd077543-5ed9-4c6b-8bbe-d5f49ee97b64</tstamps>
+    </comp>
+    <comp ref="D22">
+      <value>D_Small</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <fields>
+        <field name="LCSC">C81598</field>
+      </fields>
+      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
+      <property name="LCSC" value="C81598"/>
+      <property name="Sheetname" value="switch_matrix"/>
+      <property name="Sheetfile" value="switch_matrix.kicad_sch"/>
+      <property name="ki_description" value="Diode, small symbol"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/switch_matrix/" tstamps="/7b7e0ca3-1d6a-48a7-b8ef-32a16011b189/"/>
+      <tstamps>70a6559a-0138-40dd-aeb9-2d61ed48ade0</tstamps>
+    </comp>
+    <comp ref="D23">
+      <value>D_Small</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <fields>
+        <field name="LCSC">C81598</field>
+      </fields>
+      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
+      <property name="LCSC" value="C81598"/>
+      <property name="Sheetname" value="switch_matrix"/>
+      <property name="Sheetfile" value="switch_matrix.kicad_sch"/>
+      <property name="ki_description" value="Diode, small symbol"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/switch_matrix/" tstamps="/7b7e0ca3-1d6a-48a7-b8ef-32a16011b189/"/>
+      <tstamps>63fb7f9a-a79c-4e55-90de-5a3d159ac96d</tstamps>
+    </comp>
+    <comp ref="D24">
+      <value>D_Small</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <fields>
+        <field name="LCSC">C81598</field>
+      </fields>
+      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
+      <property name="LCSC" value="C81598"/>
+      <property name="Sheetname" value="switch_matrix"/>
+      <property name="Sheetfile" value="switch_matrix.kicad_sch"/>
+      <property name="ki_description" value="Diode, small symbol"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/switch_matrix/" tstamps="/7b7e0ca3-1d6a-48a7-b8ef-32a16011b189/"/>
+      <tstamps>b469382b-e02f-4350-a260-4031e7a1ae50</tstamps>
+    </comp>
+    <comp ref="D25">
+      <value>D_Small</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <fields>
+        <field name="LCSC">C81598</field>
+      </fields>
+      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
+      <property name="LCSC" value="C81598"/>
+      <property name="Sheetname" value="switch_matrix"/>
+      <property name="Sheetfile" value="switch_matrix.kicad_sch"/>
+      <property name="ki_description" value="Diode, small symbol"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/switch_matrix/" tstamps="/7b7e0ca3-1d6a-48a7-b8ef-32a16011b189/"/>
+      <tstamps>f80bfab5-207a-42b9-84d6-1d37b6835eea</tstamps>
+    </comp>
+    <comp ref="D26">
+      <value>D_Small</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <fields>
+        <field name="LCSC">C81598</field>
+      </fields>
+      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
+      <property name="LCSC" value="C81598"/>
+      <property name="Sheetname" value="switch_matrix"/>
+      <property name="Sheetfile" value="switch_matrix.kicad_sch"/>
+      <property name="ki_description" value="Diode, small symbol"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/switch_matrix/" tstamps="/7b7e0ca3-1d6a-48a7-b8ef-32a16011b189/"/>
+      <tstamps>1a90976f-77e8-4696-8e1f-1b8a6a59f53b</tstamps>
+    </comp>
+    <comp ref="D27">
+      <value>D_Small</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <fields>
+        <field name="LCSC">C81598</field>
+      </fields>
+      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
+      <property name="LCSC" value="C81598"/>
+      <property name="Sheetname" value="switch_matrix"/>
+      <property name="Sheetfile" value="switch_matrix.kicad_sch"/>
+      <property name="ki_description" value="Diode, small symbol"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/switch_matrix/" tstamps="/7b7e0ca3-1d6a-48a7-b8ef-32a16011b189/"/>
+      <tstamps>c73723b5-ac31-49b1-9936-40427d7f7a9e</tstamps>
+    </comp>
+    <comp ref="D28">
+      <value>D_Small</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <fields>
+        <field name="LCSC">C81598</field>
+      </fields>
+      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
+      <property name="LCSC" value="C81598"/>
+      <property name="Sheetname" value="switch_matrix"/>
+      <property name="Sheetfile" value="switch_matrix.kicad_sch"/>
+      <property name="ki_description" value="Diode, small symbol"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/switch_matrix/" tstamps="/7b7e0ca3-1d6a-48a7-b8ef-32a16011b189/"/>
+      <tstamps>5b5ad22a-a8dc-4e21-8d98-547a89f7318c</tstamps>
+    </comp>
+    <comp ref="D29">
+      <value>D_Small</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <fields>
+        <field name="LCSC">C81598</field>
+      </fields>
+      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
+      <property name="LCSC" value="C81598"/>
+      <property name="Sheetname" value="switch_matrix"/>
+      <property name="Sheetfile" value="switch_matrix.kicad_sch"/>
+      <property name="ki_description" value="Diode, small symbol"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/switch_matrix/" tstamps="/7b7e0ca3-1d6a-48a7-b8ef-32a16011b189/"/>
+      <tstamps>cd5541a1-3337-47ec-9e97-ff573a0b224e</tstamps>
+    </comp>
+    <comp ref="D30">
+      <value>D_Small</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <fields>
+        <field name="LCSC">C81598</field>
+      </fields>
+      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
+      <property name="LCSC" value="C81598"/>
+      <property name="Sheetname" value="switch_matrix"/>
+      <property name="Sheetfile" value="switch_matrix.kicad_sch"/>
+      <property name="ki_description" value="Diode, small symbol"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/switch_matrix/" tstamps="/7b7e0ca3-1d6a-48a7-b8ef-32a16011b189/"/>
+      <tstamps>2ef151fc-d075-49f3-aa75-35af058faebe</tstamps>
+    </comp>
+    <comp ref="D31">
+      <value>D_Small</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <fields>
+        <field name="LCSC">C81598</field>
+      </fields>
+      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
+      <property name="LCSC" value="C81598"/>
+      <property name="Sheetname" value="switch_matrix"/>
+      <property name="Sheetfile" value="switch_matrix.kicad_sch"/>
+      <property name="ki_description" value="Diode, small symbol"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/switch_matrix/" tstamps="/7b7e0ca3-1d6a-48a7-b8ef-32a16011b189/"/>
+      <tstamps>ad7e45fc-60db-4530-86e2-0c299247caa5</tstamps>
+    </comp>
+    <comp ref="D32">
+      <value>D_Small</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <fields>
+        <field name="LCSC">C81598</field>
+      </fields>
+      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
+      <property name="LCSC" value="C81598"/>
+      <property name="Sheetname" value="switch_matrix"/>
+      <property name="Sheetfile" value="switch_matrix.kicad_sch"/>
+      <property name="ki_description" value="Diode, small symbol"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/switch_matrix/" tstamps="/7b7e0ca3-1d6a-48a7-b8ef-32a16011b189/"/>
+      <tstamps>d671e18d-0772-4c71-b86e-9d99db6b3320</tstamps>
+    </comp>
+    <comp ref="D33">
+      <value>D_Small</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <fields>
+        <field name="LCSC">C81598</field>
+      </fields>
+      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
+      <property name="LCSC" value="C81598"/>
+      <property name="Sheetname" value="switch_matrix"/>
+      <property name="Sheetfile" value="switch_matrix.kicad_sch"/>
+      <property name="ki_description" value="Diode, small symbol"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/switch_matrix/" tstamps="/7b7e0ca3-1d6a-48a7-b8ef-32a16011b189/"/>
+      <tstamps>2d2766c9-81ba-4981-a573-491d876ab82e</tstamps>
+    </comp>
+    <comp ref="D34">
+      <value>D_Small</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <fields>
+        <field name="LCSC">C81598</field>
+      </fields>
+      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
+      <property name="LCSC" value="C81598"/>
+      <property name="Sheetname" value="switch_matrix"/>
+      <property name="Sheetfile" value="switch_matrix.kicad_sch"/>
+      <property name="ki_description" value="Diode, small symbol"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/switch_matrix/" tstamps="/7b7e0ca3-1d6a-48a7-b8ef-32a16011b189/"/>
+      <tstamps>9dd0b4c4-62b3-4b74-a640-d61e6397328f</tstamps>
+    </comp>
+    <comp ref="D35">
+      <value>D_Small</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <fields>
+        <field name="LCSC">C81598</field>
+      </fields>
+      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
+      <property name="LCSC" value="C81598"/>
+      <property name="Sheetname" value="switch_matrix"/>
+      <property name="Sheetfile" value="switch_matrix.kicad_sch"/>
+      <property name="ki_description" value="Diode, small symbol"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/switch_matrix/" tstamps="/7b7e0ca3-1d6a-48a7-b8ef-32a16011b189/"/>
+      <tstamps>0192bbf1-7d42-4bf6-9349-37344deffd10</tstamps>
+    </comp>
+    <comp ref="D36">
+      <value>D_Small</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <fields>
+        <field name="LCSC">C81598</field>
+      </fields>
+      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
+      <property name="LCSC" value="C81598"/>
+      <property name="Sheetname" value="switch_matrix"/>
+      <property name="Sheetfile" value="switch_matrix.kicad_sch"/>
+      <property name="ki_description" value="Diode, small symbol"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/switch_matrix/" tstamps="/7b7e0ca3-1d6a-48a7-b8ef-32a16011b189/"/>
+      <tstamps>c16d6ad4-4b98-4f7e-a1a2-c56bf25fa3d2</tstamps>
+    </comp>
+    <comp ref="D37">
+      <value>D_Small</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <fields>
+        <field name="LCSC">C81598</field>
+      </fields>
+      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
+      <property name="LCSC" value="C81598"/>
+      <property name="Sheetname" value="switch_matrix"/>
+      <property name="Sheetfile" value="switch_matrix.kicad_sch"/>
+      <property name="ki_description" value="Diode, small symbol"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/switch_matrix/" tstamps="/7b7e0ca3-1d6a-48a7-b8ef-32a16011b189/"/>
+      <tstamps>4fc3cbc1-8524-499a-95be-107718aaf7f8</tstamps>
+    </comp>
+    <comp ref="D38">
+      <value>D_Small</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <fields>
+        <field name="LCSC">C81598</field>
+      </fields>
+      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
+      <property name="LCSC" value="C81598"/>
+      <property name="Sheetname" value="switch_matrix"/>
+      <property name="Sheetfile" value="switch_matrix.kicad_sch"/>
+      <property name="ki_description" value="Diode, small symbol"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/switch_matrix/" tstamps="/7b7e0ca3-1d6a-48a7-b8ef-32a16011b189/"/>
+      <tstamps>20756fe9-3440-43d7-8d04-fcb0fa01d930</tstamps>
+    </comp>
+    <comp ref="D39">
+      <value>D_Small</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <fields>
+        <field name="LCSC">C81598</field>
+      </fields>
+      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
+      <property name="LCSC" value="C81598"/>
+      <property name="Sheetname" value="switch_matrix"/>
+      <property name="Sheetfile" value="switch_matrix.kicad_sch"/>
+      <property name="ki_description" value="Diode, small symbol"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/switch_matrix/" tstamps="/7b7e0ca3-1d6a-48a7-b8ef-32a16011b189/"/>
+      <tstamps>90e9a353-da52-4e82-8289-36d9f576bcd8</tstamps>
+    </comp>
+    <comp ref="D40">
+      <value>D_Small</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <fields>
+        <field name="LCSC">C81598</field>
+      </fields>
+      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
+      <property name="LCSC" value="C81598"/>
+      <property name="Sheetname" value="switch_matrix"/>
+      <property name="Sheetfile" value="switch_matrix.kicad_sch"/>
+      <property name="ki_description" value="Diode, small symbol"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/switch_matrix/" tstamps="/7b7e0ca3-1d6a-48a7-b8ef-32a16011b189/"/>
+      <tstamps>ba688d01-106a-4d69-bd5b-c6603a616f5d</tstamps>
+    </comp>
+    <comp ref="D41">
+      <value>D_Small</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <fields>
+        <field name="LCSC">C81598</field>
+      </fields>
+      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
+      <property name="LCSC" value="C81598"/>
+      <property name="Sheetname" value="switch_matrix"/>
+      <property name="Sheetfile" value="switch_matrix.kicad_sch"/>
+      <property name="ki_description" value="Diode, small symbol"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/switch_matrix/" tstamps="/7b7e0ca3-1d6a-48a7-b8ef-32a16011b189/"/>
+      <tstamps>57d79e80-2c7f-488d-b14e-2246f9b40ac7</tstamps>
+    </comp>
+    <comp ref="D42">
+      <value>D_Small</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <fields>
+        <field name="LCSC">C81598</field>
+      </fields>
+      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
+      <property name="LCSC" value="C81598"/>
+      <property name="Sheetname" value="switch_matrix"/>
+      <property name="Sheetfile" value="switch_matrix.kicad_sch"/>
+      <property name="ki_description" value="Diode, small symbol"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/switch_matrix/" tstamps="/7b7e0ca3-1d6a-48a7-b8ef-32a16011b189/"/>
+      <tstamps>96486b07-cbbb-4009-b644-abd05123b865</tstamps>
+    </comp>
+    <comp ref="D43">
+      <value>D_Small</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <fields>
+        <field name="LCSC">C81598</field>
+      </fields>
+      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
+      <property name="LCSC" value="C81598"/>
+      <property name="Sheetname" value="switch_matrix"/>
+      <property name="Sheetfile" value="switch_matrix.kicad_sch"/>
+      <property name="ki_description" value="Diode, small symbol"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/switch_matrix/" tstamps="/7b7e0ca3-1d6a-48a7-b8ef-32a16011b189/"/>
+      <tstamps>466da317-6f6b-4d71-b072-df079ace8b26</tstamps>
+    </comp>
+    <comp ref="D44">
+      <value>D_Small</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <fields>
+        <field name="LCSC">C81598</field>
+      </fields>
+      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
+      <property name="LCSC" value="C81598"/>
+      <property name="Sheetname" value="switch_matrix"/>
+      <property name="Sheetfile" value="switch_matrix.kicad_sch"/>
+      <property name="ki_description" value="Diode, small symbol"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/switch_matrix/" tstamps="/7b7e0ca3-1d6a-48a7-b8ef-32a16011b189/"/>
+      <tstamps>e7300d41-f563-4642-8b62-27bf2c890d86</tstamps>
+    </comp>
+    <comp ref="D45">
+      <value>D_Small</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <fields>
+        <field name="LCSC">C81598</field>
+      </fields>
+      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
+      <property name="LCSC" value="C81598"/>
+      <property name="Sheetname" value="switch_matrix"/>
+      <property name="Sheetfile" value="switch_matrix.kicad_sch"/>
+      <property name="ki_description" value="Diode, small symbol"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/switch_matrix/" tstamps="/7b7e0ca3-1d6a-48a7-b8ef-32a16011b189/"/>
+      <tstamps>8fc1a484-b3ad-4512-86fb-8b3d2a90b9b7</tstamps>
+    </comp>
+    <comp ref="D46">
+      <value>D_Small</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <fields>
+        <field name="LCSC">C81598</field>
+      </fields>
+      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
+      <property name="LCSC" value="C81598"/>
+      <property name="Sheetname" value="switch_matrix"/>
+      <property name="Sheetfile" value="switch_matrix.kicad_sch"/>
+      <property name="ki_description" value="Diode, small symbol"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/switch_matrix/" tstamps="/7b7e0ca3-1d6a-48a7-b8ef-32a16011b189/"/>
+      <tstamps>aef0e724-ba1f-464f-ae91-26669beeab18</tstamps>
+    </comp>
+    <comp ref="D47">
+      <value>D_Small</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <fields>
+        <field name="LCSC">C81598</field>
+      </fields>
+      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
+      <property name="LCSC" value="C81598"/>
+      <property name="Sheetname" value="switch_matrix"/>
+      <property name="Sheetfile" value="switch_matrix.kicad_sch"/>
+      <property name="ki_description" value="Diode, small symbol"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/switch_matrix/" tstamps="/7b7e0ca3-1d6a-48a7-b8ef-32a16011b189/"/>
+      <tstamps>f5973491-bf5d-48da-b9dd-3d09caf8c5b0</tstamps>
+    </comp>
+    <comp ref="D48">
+      <value>D_Small</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <fields>
+        <field name="LCSC">C81598</field>
+      </fields>
+      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
+      <property name="LCSC" value="C81598"/>
+      <property name="Sheetname" value="switch_matrix"/>
+      <property name="Sheetfile" value="switch_matrix.kicad_sch"/>
+      <property name="ki_description" value="Diode, small symbol"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/switch_matrix/" tstamps="/7b7e0ca3-1d6a-48a7-b8ef-32a16011b189/"/>
+      <tstamps>de036952-164d-4530-9205-2924e002ec8f</tstamps>
+    </comp>
+    <comp ref="D49">
+      <value>D_Small</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <fields>
+        <field name="LCSC">C81598</field>
+      </fields>
+      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
+      <property name="LCSC" value="C81598"/>
+      <property name="Sheetname" value="switch_matrix"/>
+      <property name="Sheetfile" value="switch_matrix.kicad_sch"/>
+      <property name="ki_description" value="Diode, small symbol"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/switch_matrix/" tstamps="/7b7e0ca3-1d6a-48a7-b8ef-32a16011b189/"/>
+      <tstamps>7326d570-4e98-4fae-922c-0aa3aacc910e</tstamps>
+    </comp>
+    <comp ref="D50">
+      <value>D_Small</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <fields>
+        <field name="LCSC">C81598</field>
+      </fields>
+      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
+      <property name="LCSC" value="C81598"/>
+      <property name="Sheetname" value="switch_matrix"/>
+      <property name="Sheetfile" value="switch_matrix.kicad_sch"/>
+      <property name="ki_description" value="Diode, small symbol"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/switch_matrix/" tstamps="/7b7e0ca3-1d6a-48a7-b8ef-32a16011b189/"/>
+      <tstamps>5f08c2b5-8aec-46b5-b6a9-cbfae185dff0</tstamps>
+    </comp>
+    <comp ref="D51">
+      <value>D_Small</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <fields>
+        <field name="LCSC">C81598</field>
+      </fields>
+      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
+      <property name="LCSC" value="C81598"/>
+      <property name="Sheetname" value="switch_matrix"/>
+      <property name="Sheetfile" value="switch_matrix.kicad_sch"/>
+      <property name="ki_description" value="Diode, small symbol"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/switch_matrix/" tstamps="/7b7e0ca3-1d6a-48a7-b8ef-32a16011b189/"/>
+      <tstamps>844bfe49-c6da-4701-a8b6-62dc57063379</tstamps>
+    </comp>
+    <comp ref="D52">
+      <value>D_Small</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <fields>
+        <field name="LCSC">C81598</field>
+      </fields>
+      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
+      <property name="LCSC" value="C81598"/>
+      <property name="Sheetname" value="switch_matrix"/>
+      <property name="Sheetfile" value="switch_matrix.kicad_sch"/>
+      <property name="ki_description" value="Diode, small symbol"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/switch_matrix/" tstamps="/7b7e0ca3-1d6a-48a7-b8ef-32a16011b189/"/>
+      <tstamps>a5c15cfd-2298-4f9b-9a27-9a1bba716bcc</tstamps>
+    </comp>
+    <comp ref="D53">
+      <value>D_Small</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <fields>
+        <field name="LCSC">C81598</field>
+      </fields>
+      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
+      <property name="LCSC" value="C81598"/>
+      <property name="Sheetname" value="switch_matrix"/>
+      <property name="Sheetfile" value="switch_matrix.kicad_sch"/>
+      <property name="ki_description" value="Diode, small symbol"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/switch_matrix/" tstamps="/7b7e0ca3-1d6a-48a7-b8ef-32a16011b189/"/>
+      <tstamps>b907d48c-7f6d-417e-8a9b-eed38e138171</tstamps>
+    </comp>
+    <comp ref="D54">
+      <value>D_Small</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <fields>
+        <field name="LCSC">C81598</field>
+      </fields>
+      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
+      <property name="LCSC" value="C81598"/>
+      <property name="Sheetname" value="switch_matrix"/>
+      <property name="Sheetfile" value="switch_matrix.kicad_sch"/>
+      <property name="ki_description" value="Diode, small symbol"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/switch_matrix/" tstamps="/7b7e0ca3-1d6a-48a7-b8ef-32a16011b189/"/>
+      <tstamps>95613b4a-f256-452a-88e6-0bbfc0db7dc1</tstamps>
+    </comp>
+    <comp ref="D55">
+      <value>D_Small</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <fields>
+        <field name="LCSC">C81598</field>
+      </fields>
+      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
+      <property name="LCSC" value="C81598"/>
+      <property name="Sheetname" value="switch_matrix"/>
+      <property name="Sheetfile" value="switch_matrix.kicad_sch"/>
+      <property name="ki_description" value="Diode, small symbol"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/switch_matrix/" tstamps="/7b7e0ca3-1d6a-48a7-b8ef-32a16011b189/"/>
+      <tstamps>af44507a-a547-4d3a-9e3e-47e34c1bd695</tstamps>
+    </comp>
+    <comp ref="D56">
+      <value>D_Small</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <fields>
+        <field name="LCSC">C81598</field>
+      </fields>
+      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
+      <property name="LCSC" value="C81598"/>
+      <property name="Sheetname" value="switch_matrix"/>
+      <property name="Sheetfile" value="switch_matrix.kicad_sch"/>
+      <property name="ki_description" value="Diode, small symbol"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/switch_matrix/" tstamps="/7b7e0ca3-1d6a-48a7-b8ef-32a16011b189/"/>
+      <tstamps>678c52b3-ddec-4d1a-a897-d8daf71dfc14</tstamps>
+    </comp>
+    <comp ref="D57">
+      <value>D_Small</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <fields>
+        <field name="LCSC">C81598</field>
+      </fields>
+      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
+      <property name="LCSC" value="C81598"/>
+      <property name="Sheetname" value="switch_matrix"/>
+      <property name="Sheetfile" value="switch_matrix.kicad_sch"/>
+      <property name="ki_description" value="Diode, small symbol"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/switch_matrix/" tstamps="/7b7e0ca3-1d6a-48a7-b8ef-32a16011b189/"/>
+      <tstamps>8fbb17ee-026e-4b68-83d1-b50136031ba6</tstamps>
+    </comp>
+    <comp ref="D58">
+      <value>D_Small</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <fields>
+        <field name="LCSC">C81598</field>
+      </fields>
+      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
+      <property name="LCSC" value="C81598"/>
+      <property name="Sheetname" value="switch_matrix"/>
+      <property name="Sheetfile" value="switch_matrix.kicad_sch"/>
+      <property name="ki_description" value="Diode, small symbol"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/switch_matrix/" tstamps="/7b7e0ca3-1d6a-48a7-b8ef-32a16011b189/"/>
+      <tstamps>2c09b521-4da8-4bff-8cd6-05d721fa4b13</tstamps>
+    </comp>
+    <comp ref="D59">
+      <value>D_Small</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <fields>
+        <field name="LCSC">C81598</field>
+      </fields>
+      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
+      <property name="LCSC" value="C81598"/>
+      <property name="Sheetname" value="switch_matrix"/>
+      <property name="Sheetfile" value="switch_matrix.kicad_sch"/>
+      <property name="ki_description" value="Diode, small symbol"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/switch_matrix/" tstamps="/7b7e0ca3-1d6a-48a7-b8ef-32a16011b189/"/>
+      <tstamps>51e8afd8-d4ac-4e32-a5eb-1b2c4a348f2b</tstamps>
+    </comp>
+    <comp ref="D60">
+      <value>D_Small</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <fields>
+        <field name="LCSC">C81598</field>
+      </fields>
+      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
+      <property name="LCSC" value="C81598"/>
+      <property name="Sheetname" value="switch_matrix"/>
+      <property name="Sheetfile" value="switch_matrix.kicad_sch"/>
+      <property name="ki_description" value="Diode, small symbol"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/switch_matrix/" tstamps="/7b7e0ca3-1d6a-48a7-b8ef-32a16011b189/"/>
+      <tstamps>47d1889c-eef6-49e1-ab08-cba917623b91</tstamps>
+    </comp>
+    <comp ref="D61">
+      <value>D_Small</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <fields>
+        <field name="LCSC">C81598</field>
+      </fields>
+      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
+      <property name="LCSC" value="C81598"/>
+      <property name="Sheetname" value="switch_matrix"/>
+      <property name="Sheetfile" value="switch_matrix.kicad_sch"/>
+      <property name="ki_description" value="Diode, small symbol"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/switch_matrix/" tstamps="/7b7e0ca3-1d6a-48a7-b8ef-32a16011b189/"/>
+      <tstamps>a7ac0892-b085-4d79-a05e-835e6c0bba2a</tstamps>
+    </comp>
+    <comp ref="D62">
+      <value>D_Small</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <fields>
+        <field name="LCSC">C81598</field>
+      </fields>
+      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
+      <property name="LCSC" value="C81598"/>
+      <property name="Sheetname" value="switch_matrix"/>
+      <property name="Sheetfile" value="switch_matrix.kicad_sch"/>
+      <property name="ki_description" value="Diode, small symbol"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/switch_matrix/" tstamps="/7b7e0ca3-1d6a-48a7-b8ef-32a16011b189/"/>
+      <tstamps>ff74b9cc-e7d5-40b0-ac90-a05030912cf7</tstamps>
+    </comp>
+    <comp ref="D63">
+      <value>D_Small</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <fields>
+        <field name="LCSC">C81598</field>
+      </fields>
+      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
+      <property name="LCSC" value="C81598"/>
+      <property name="Sheetname" value="switch_matrix"/>
+      <property name="Sheetfile" value="switch_matrix.kicad_sch"/>
+      <property name="ki_description" value="Diode, small symbol"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/switch_matrix/" tstamps="/7b7e0ca3-1d6a-48a7-b8ef-32a16011b189/"/>
+      <tstamps>99d247bc-1782-4076-a5f3-c6b2f8f517e9</tstamps>
+    </comp>
+    <comp ref="D64">
+      <value>D_Small</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <fields>
+        <field name="LCSC">C81598</field>
+      </fields>
+      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
+      <property name="LCSC" value="C81598"/>
+      <property name="Sheetname" value="switch_matrix"/>
+      <property name="Sheetfile" value="switch_matrix.kicad_sch"/>
+      <property name="ki_description" value="Diode, small symbol"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/switch_matrix/" tstamps="/7b7e0ca3-1d6a-48a7-b8ef-32a16011b189/"/>
+      <tstamps>9a1da7ec-a0cd-4a57-9515-a9f04b1c3eaf</tstamps>
+    </comp>
+    <comp ref="D65">
+      <value>D_Small</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <fields>
+        <field name="LCSC">C81598</field>
+      </fields>
+      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
+      <property name="LCSC" value="C81598"/>
+      <property name="Sheetname" value="switch_matrix"/>
+      <property name="Sheetfile" value="switch_matrix.kicad_sch"/>
+      <property name="ki_description" value="Diode, small symbol"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/switch_matrix/" tstamps="/7b7e0ca3-1d6a-48a7-b8ef-32a16011b189/"/>
+      <tstamps>731a873e-327d-49f8-bef5-8d1d94d7960c</tstamps>
+    </comp>
+    <comp ref="D66">
+      <value>D_Small</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <fields>
+        <field name="LCSC">C81598</field>
+      </fields>
+      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
+      <property name="LCSC" value="C81598"/>
+      <property name="Sheetname" value="switch_matrix"/>
+      <property name="Sheetfile" value="switch_matrix.kicad_sch"/>
+      <property name="ki_description" value="Diode, small symbol"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/switch_matrix/" tstamps="/7b7e0ca3-1d6a-48a7-b8ef-32a16011b189/"/>
+      <tstamps>f823dc7a-823f-4af6-8cc8-30358e3c0163</tstamps>
+    </comp>
+    <comp ref="D67">
+      <value>D_Small</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <fields>
+        <field name="LCSC">C81598</field>
+      </fields>
+      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
+      <property name="LCSC" value="C81598"/>
+      <property name="Sheetname" value="switch_matrix"/>
+      <property name="Sheetfile" value="switch_matrix.kicad_sch"/>
+      <property name="ki_description" value="Diode, small symbol"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/switch_matrix/" tstamps="/7b7e0ca3-1d6a-48a7-b8ef-32a16011b189/"/>
+      <tstamps>1bac8ab3-9a71-4b99-9f88-4a989f882646</tstamps>
+    </comp>
+    <comp ref="D68">
+      <value>D_Small</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <fields>
+        <field name="LCSC">C81598</field>
+      </fields>
+      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
+      <property name="LCSC" value="C81598"/>
+      <property name="Sheetname" value="switch_matrix"/>
+      <property name="Sheetfile" value="switch_matrix.kicad_sch"/>
+      <property name="ki_description" value="Diode, small symbol"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/switch_matrix/" tstamps="/7b7e0ca3-1d6a-48a7-b8ef-32a16011b189/"/>
+      <tstamps>0905c57a-d833-4c99-ab30-052fd1d93158</tstamps>
+    </comp>
+    <comp ref="D69">
+      <value>D_Small</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <fields>
+        <field name="LCSC">C81598</field>
+      </fields>
+      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
+      <property name="LCSC" value="C81598"/>
+      <property name="Sheetname" value="switch_matrix"/>
+      <property name="Sheetfile" value="switch_matrix.kicad_sch"/>
+      <property name="ki_description" value="Diode, small symbol"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/switch_matrix/" tstamps="/7b7e0ca3-1d6a-48a7-b8ef-32a16011b189/"/>
+      <tstamps>ee248970-a0f9-409b-9631-536f840d5557</tstamps>
+    </comp>
+    <comp ref="D70">
+      <value>D_Small</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <fields>
+        <field name="LCSC">C81598</field>
+      </fields>
+      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
+      <property name="LCSC" value="C81598"/>
+      <property name="Sheetname" value="switch_matrix"/>
+      <property name="Sheetfile" value="switch_matrix.kicad_sch"/>
+      <property name="ki_description" value="Diode, small symbol"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/switch_matrix/" tstamps="/7b7e0ca3-1d6a-48a7-b8ef-32a16011b189/"/>
+      <tstamps>335f113f-073f-4a05-a242-600f1c1c71fa</tstamps>
+    </comp>
+    <comp ref="D71">
+      <value>D_Small</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <fields>
+        <field name="LCSC">C81598</field>
+      </fields>
+      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
+      <property name="LCSC" value="C81598"/>
+      <property name="Sheetname" value="switch_matrix"/>
+      <property name="Sheetfile" value="switch_matrix.kicad_sch"/>
+      <property name="ki_description" value="Diode, small symbol"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/switch_matrix/" tstamps="/7b7e0ca3-1d6a-48a7-b8ef-32a16011b189/"/>
+      <tstamps>4e42386f-3170-4cdd-b1f7-a3de49fbec23</tstamps>
+    </comp>
+    <comp ref="D72">
+      <value>D_Small</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <fields>
+        <field name="LCSC">C81598</field>
+      </fields>
+      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
+      <property name="LCSC" value="C81598"/>
+      <property name="Sheetname" value="switch_matrix"/>
+      <property name="Sheetfile" value="switch_matrix.kicad_sch"/>
+      <property name="ki_description" value="Diode, small symbol"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/switch_matrix/" tstamps="/7b7e0ca3-1d6a-48a7-b8ef-32a16011b189/"/>
+      <tstamps>bc12a36a-d3a2-4ba8-9f00-aa265bd41115</tstamps>
+    </comp>
+    <comp ref="S1">
+      <value>2U_BACKSPACE</value>
+      <footprint>marbastlib-mx:STAB_MX_2u</footprint>
+      <libsource lib="marbastlib-mx" part="MX_stab" description="Cherry MX-style stabilizer"/>
+      <property name="Sheetname" value="switch_matrix"/>
+      <property name="Sheetfile" value="switch_matrix.kicad_sch"/>
+      <property name="ki_description" value="Cherry MX-style stabilizer"/>
+      <property name="ki_keywords" value="cherry mx stabilizer stab"/>
+      <sheetpath names="/switch_matrix/" tstamps="/7b7e0ca3-1d6a-48a7-b8ef-32a16011b189/"/>
+      <tstamps>a7362d07-57cc-4ee3-93ba-01f86ad6e051</tstamps>
+    </comp>
+    <comp ref="S2">
+      <value>2.25_ANSI_ENTER</value>
+      <footprint>marbastlib-mx:STAB_MX_2.25u</footprint>
+      <libsource lib="marbastlib-mx" part="MX_stab" description="Cherry MX-style stabilizer"/>
+      <property name="Sheetname" value="switch_matrix"/>
+      <property name="Sheetfile" value="switch_matrix.kicad_sch"/>
+      <property name="ki_description" value="Cherry MX-style stabilizer"/>
+      <property name="ki_keywords" value="cherry mx stabilizer stab"/>
+      <sheetpath names="/switch_matrix/" tstamps="/7b7e0ca3-1d6a-48a7-b8ef-32a16011b189/"/>
+      <tstamps>cd9a115b-435f-4c35-bf57-250e629de73f</tstamps>
+    </comp>
+    <comp ref="S3">
+      <value>7U_SPACEBAR</value>
+      <footprint>marbastlib-mx:STAB_MX_P_7u</footprint>
+      <libsource lib="marbastlib-mx" part="MX_stab" description="Cherry MX-style stabilizer"/>
+      <property name="Sheetname" value="switch_matrix"/>
+      <property name="Sheetfile" value="switch_matrix.kicad_sch"/>
+      <property name="ki_description" value="Cherry MX-style stabilizer"/>
+      <property name="ki_keywords" value="cherry mx stabilizer stab"/>
+      <sheetpath names="/switch_matrix/" tstamps="/7b7e0ca3-1d6a-48a7-b8ef-32a16011b189/"/>
+      <tstamps>55db1a58-1113-4bee-8193-ae39c3899641</tstamps>
+    </comp>
+    <comp ref="S4">
+      <value>2.25_LEFT_SHIFT</value>
+      <footprint>marbastlib-mx:STAB_MX_2.25u</footprint>
+      <libsource lib="marbastlib-mx" part="MX_stab" description="Cherry MX-style stabilizer"/>
+      <property name="Sheetname" value="switch_matrix"/>
+      <property name="Sheetfile" value="switch_matrix.kicad_sch"/>
+      <property name="ki_description" value="Cherry MX-style stabilizer"/>
+      <property name="ki_keywords" value="cherry mx stabilizer stab"/>
+      <sheetpath names="/switch_matrix/" tstamps="/7b7e0ca3-1d6a-48a7-b8ef-32a16011b189/"/>
+      <tstamps>6a924cb5-c100-46b5-b32d-248785edac4e</tstamps>
+    </comp>
+    <comp ref="U5">
+      <value>74AHCT1G125</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-5</footprint>
+      <datasheet>http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C7484</field>
+      </fields>
+      <libsource lib="74xGxx" part="74AHCT1G125" description="Single Buffer Gate Tri-State, Low-Voltage CMOS"/>
+      <property name="LCSC" value="C7484"/>
+      <property name="Sheetname" value="switch_matrix"/>
+      <property name="Sheetfile" value="switch_matrix.kicad_sch"/>
+      <property name="ki_description" value="Single Buffer Gate Tri-State, Low-Voltage CMOS"/>
+      <property name="ki_keywords" value="Single Gate Buff Tri-State LVC CMOS"/>
+      <sheetpath names="/switch_matrix/" tstamps="/7b7e0ca3-1d6a-48a7-b8ef-32a16011b189/"/>
+      <tstamps>9c86d0c8-9993-4bab-a6d1-63a93c5e3c3b</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="" part="SK6812MINI-E_1">
+      <description>Reverse mount adressable LED (WS2812 protocol)</description>
+      <fields>
+        <field name="Reference">LED</field>
+        <field name="Value">SK6812MINI-E</field>
+        <field name="Footprint">marbastlib-various:LED_6028R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VDD" type="power_in"/>
+        <pin num="2" name="DOUT" type="output"/>
+        <pin num="3" name="DIN" type="input"/>
+        <pin num="4" name="VSS" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="" part="SK6812MINI-E_10">
+      <description>Reverse mount adressable LED (WS2812 protocol)</description>
+      <fields>
+        <field name="Reference">LED</field>
+        <field name="Value">SK6812MINI-E</field>
+        <field name="Footprint">marbastlib-various:LED_6028R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VDD" type="power_in"/>
+        <pin num="2" name="DOUT" type="output"/>
+        <pin num="3" name="DIN" type="input"/>
+        <pin num="4" name="VSS" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="" part="SK6812MINI-E_11">
+      <description>Reverse mount adressable LED (WS2812 protocol)</description>
+      <fields>
+        <field name="Reference">LED</field>
+        <field name="Value">SK6812MINI-E</field>
+        <field name="Footprint">marbastlib-various:LED_6028R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VDD" type="power_in"/>
+        <pin num="2" name="DOUT" type="output"/>
+        <pin num="3" name="DIN" type="input"/>
+        <pin num="4" name="VSS" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="" part="SK6812MINI-E_2">
+      <description>Reverse mount adressable LED (WS2812 protocol)</description>
+      <fields>
+        <field name="Reference">LED</field>
+        <field name="Value">SK6812MINI-E</field>
+        <field name="Footprint">marbastlib-various:LED_6028R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VDD" type="power_in"/>
+        <pin num="2" name="DOUT" type="output"/>
+        <pin num="3" name="DIN" type="input"/>
+        <pin num="4" name="VSS" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="" part="SK6812MINI-E_3">
+      <description>Reverse mount adressable LED (WS2812 protocol)</description>
+      <fields>
+        <field name="Reference">LED</field>
+        <field name="Value">SK6812MINI-E</field>
+        <field name="Footprint">marbastlib-various:LED_6028R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VDD" type="power_in"/>
+        <pin num="2" name="DOUT" type="output"/>
+        <pin num="3" name="DIN" type="input"/>
+        <pin num="4" name="VSS" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="" part="SK6812MINI-E_4">
+      <description>Reverse mount adressable LED (WS2812 protocol)</description>
+      <fields>
+        <field name="Reference">LED</field>
+        <field name="Value">SK6812MINI-E</field>
+        <field name="Footprint">marbastlib-various:LED_6028R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VDD" type="power_in"/>
+        <pin num="2" name="DOUT" type="output"/>
+        <pin num="3" name="DIN" type="input"/>
+        <pin num="4" name="VSS" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="" part="SK6812MINI-E_5">
+      <description>Reverse mount adressable LED (WS2812 protocol)</description>
+      <fields>
+        <field name="Reference">LED</field>
+        <field name="Value">SK6812MINI-E</field>
+        <field name="Footprint">marbastlib-various:LED_6028R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VDD" type="power_in"/>
+        <pin num="2" name="DOUT" type="output"/>
+        <pin num="3" name="DIN" type="input"/>
+        <pin num="4" name="VSS" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="" part="SK6812MINI-E_6">
+      <description>Reverse mount adressable LED (WS2812 protocol)</description>
+      <fields>
+        <field name="Reference">LED</field>
+        <field name="Value">SK6812MINI-E</field>
+        <field name="Footprint">marbastlib-various:LED_6028R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VDD" type="power_in"/>
+        <pin num="2" name="DOUT" type="output"/>
+        <pin num="3" name="DIN" type="input"/>
+        <pin num="4" name="VSS" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="" part="SK6812MINI-E_7">
+      <description>Reverse mount adressable LED (WS2812 protocol)</description>
+      <fields>
+        <field name="Reference">LED</field>
+        <field name="Value">SK6812MINI-E</field>
+        <field name="Footprint">marbastlib-various:LED_6028R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VDD" type="power_in"/>
+        <pin num="2" name="DOUT" type="output"/>
+        <pin num="3" name="DIN" type="input"/>
+        <pin num="4" name="VSS" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="" part="SK6812MINI-E_8">
+      <description>Reverse mount adressable LED (WS2812 protocol)</description>
+      <fields>
+        <field name="Reference">LED</field>
+        <field name="Value">SK6812MINI-E</field>
+        <field name="Footprint">marbastlib-various:LED_6028R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VDD" type="power_in"/>
+        <pin num="2" name="DOUT" type="output"/>
+        <pin num="3" name="DIN" type="input"/>
+        <pin num="4" name="VSS" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="" part="SK6812MINI-E_9">
+      <description>Reverse mount adressable LED (WS2812 protocol)</description>
+      <fields>
+        <field name="Reference">LED</field>
+        <field name="Value">SK6812MINI-E</field>
+        <field name="Footprint">marbastlib-various:LED_6028R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VDD" type="power_in"/>
+        <pin num="2" name="DOUT" type="output"/>
+        <pin num="3" name="DIN" type="input"/>
+        <pin num="4" name="VSS" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="74xGxx" part="74AHCT1G125">
+      <description>Single Buffer Gate Tri-State, Low-Voltage CMOS</description>
+      <docs>http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf</docs>
+      <footprints>
+        <fp>SOT*</fp>
+        <fp>SG-*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U5</field>
+        <field name="Value">74AHCT1G125</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23-5</field>
+        <field name="Datasheet">http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="input"/>
+        <pin num="2" name="" type="input"/>
+        <pin num="3" name="GND" type="power_in"/>
+        <pin num="4" name="" type="tri_state"/>
+        <pin num="5" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x04">
+      <description>Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x04</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x05">
+      <description>Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x05</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C_Small">
+      <description>Unpolarized capacitor, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Small</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Crystal_GND24_Small">
+      <description>Four pin crystal, GND on pins 2 and 4, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Crystal*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Y</field>
+        <field name="Value">Crystal_GND24_Small</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="D_Small">
+      <description>Diode, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TO-???*</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D_Small</field>
+        <field name="Datasheet">~</field>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Polyfuse_Small">
+      <description>Resettable fuse, polymeric positive temperature coefficient, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>*polyfuse*</fp>
+        <fp>*PTC*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">F</field>
+        <field name="Value">Polyfuse_Small</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R_Small">
+      <description>Resistor, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_Small</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Memory_Flash" part="W25Q128JVS">
+      <description>128Mb Serial Flash Memory, Standard/Dual/Quad SPI, SOIC-8</description>
+      <docs>http://www.winbond.com/resource-files/w25q128jv_dtr%20revc%2003272018%20plus.pdf</docs>
+      <footprints>
+        <fp>SOIC*5.23x5.23mm*P1.27mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U4</field>
+        <field name="Value">W25Q128JVS</field>
+        <field name="Footprint">Package_SO:SOIC-8_5.23x5.23mm_P1.27mm</field>
+        <field name="Datasheet">http://www.winbond.com/resource-files/w25q128jv_dtr%20revc%2003272018%20plus.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~{CS}" type="input"/>
+        <pin num="2" name="DO(IO1)" type="bidirectional"/>
+        <pin num="3" name="IO2" type="bidirectional"/>
+        <pin num="4" name="GND" type="power_in"/>
+        <pin num="5" name="DI(IO0)" type="bidirectional"/>
+        <pin num="6" name="CLK" type="input"/>
+        <pin num="7" name="IO3" type="bidirectional"/>
+        <pin num="8" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Regulator_Linear" part="XC6206PxxxMR">
+      <description>Positive 60-250mA Low Dropout Regulator, Fixed Output, SOT-23</description>
+      <docs>https://www.torexsemi.com/file/xc6206/XC6206.pdf</docs>
+      <footprints>
+        <fp>SOT?23?3*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">XC6206PxxxMR</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23-3</field>
+        <field name="Datasheet">https://www.torexsemi.com/file/xc6206/XC6206.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="power_in"/>
+        <pin num="2" name="VO" type="power_out"/>
+        <pin num="3" name="VI" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Sleep-lib" part="RP2040">
+      <docs>https://datasheets.raspberrypi.com/rp2040/rp2040-datasheet.pdf</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">RP2040</field>
+        <field name="Footprint">Sleep-Lib:RP2040-QFN-56</field>
+        <field name="Datasheet">https://datasheets.raspberrypi.com/rp2040/rp2040-datasheet.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="IOVDD" type="power_in"/>
+        <pin num="2" name="GPIO0" type="input"/>
+        <pin num="3" name="GPIO1" type="input"/>
+        <pin num="4" name="GPIO2" type="input"/>
+        <pin num="5" name="GPIO3" type="input"/>
+        <pin num="6" name="GPIO4" type="input"/>
+        <pin num="7" name="GPIO5" type="input"/>
+        <pin num="8" name="GPIO6" type="input"/>
+        <pin num="9" name="GPIO7" type="input"/>
+        <pin num="10" name="IOVDD" type="power_in"/>
+        <pin num="11" name="GPIO8" type="input"/>
+        <pin num="12" name="GPIO9" type="input"/>
+        <pin num="13" name="GPIO10" type="input"/>
+        <pin num="14" name="GPIO11" type="input"/>
+        <pin num="15" name="GPIO12" type="input"/>
+        <pin num="16" name="GPIO13" type="input"/>
+        <pin num="17" name="GPIO14" type="input"/>
+        <pin num="18" name="GPIO15" type="input"/>
+        <pin num="19" name="TESTEN" type="input"/>
+        <pin num="20" name="XTAL_IN" type="input"/>
+        <pin num="21" name="XTAL_OUT" type="input"/>
+        <pin num="22" name="IOVDD" type="power_in"/>
+        <pin num="23" name="DVDD" type="power_in"/>
+        <pin num="24" name="SWCLK" type="input"/>
+        <pin num="25" name="SWDIO" type="bidirectional"/>
+        <pin num="26" name="~{RUN}" type="input"/>
+        <pin num="27" name="GPIO16" type="input"/>
+        <pin num="28" name="GPIO17" type="input"/>
+        <pin num="29" name="GPIO18" type="input"/>
+        <pin num="30" name="GPIO19" type="input"/>
+        <pin num="31" name="GPIO20" type="input"/>
+        <pin num="32" name="GPIO21" type="input"/>
+        <pin num="33" name="IOVDD" type="power_in"/>
+        <pin num="34" name="GPIO22" type="input"/>
+        <pin num="35" name="GPIO23" type="input"/>
+        <pin num="36" name="GPIO24" type="input"/>
+        <pin num="37" name="GPIO25" type="input"/>
+        <pin num="38" name="GPIO26/ADC0" type="input"/>
+        <pin num="39" name="GPIO27/ADC1" type="input"/>
+        <pin num="40" name="GPIO28/ADC2" type="input"/>
+        <pin num="41" name="GPIO29/ADC3" type="input"/>
+        <pin num="42" name="IOVDD" type="power_in"/>
+        <pin num="43" name="ADC_AVDD" type="power_in"/>
+        <pin num="44" name="VREG_VIN" type="power_in"/>
+        <pin num="45" name="VREG_VOUT" type="power_out"/>
+        <pin num="46" name="D-" type="bidirectional"/>
+        <pin num="47" name="D+" type="bidirectional"/>
+        <pin num="48" name="USB_VDD" type="power_in"/>
+        <pin num="49" name="IOVDD" type="power_in"/>
+        <pin num="50" name="DVDD" type="power_in"/>
+        <pin num="51" name="QSPI_SD3" type="bidirectional"/>
+        <pin num="52" name="QSPI_SCLK" type="input"/>
+        <pin num="53" name="QSPI_SD0" type="bidirectional"/>
+        <pin num="54" name="QSPI_SD2" type="bidirectional"/>
+        <pin num="55" name="QSPI_SD1" type="bidirectional"/>
+        <pin num="56" name="QSPI_SS_N" type="bidirectional"/>
+        <pin num="57" name="GND" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Switch" part="SW_Push">
+      <description>Push button switch, generic, two pins</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_Push</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="marbastlib-mx" part="MX_SW_solder">
+      <description>Push button switch, normally open, two pins, 45° tilted</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">MX_SW_solder</field>
+        <field name="Footprint">marbastlib-mx:SW_MX_1u</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="marbastlib-mx" part="MX_stab">
+      <description>Cherry MX-style stabilizer</description>
+      <fields>
+        <field name="Reference">S</field>
+        <field name="Value">MX_stab</field>
+        <field name="Footprint">marbastlib-mx:STAB_MX_P_6.25u</field>
+      </fields>
+    </libpart>
+    <libpart lib="marbastlib-various" part="SK6812MINI-E">
+      <description>Reverse mount adressable LED (WS2812 protocol)</description>
+      <fields>
+        <field name="Reference">LED</field>
+        <field name="Value">SK6812MINI-E</field>
+        <field name="Footprint">marbastlib-various:LED_6028R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VDD" type="power_in"/>
+        <pin num="2" name="DOUT" type="output"/>
+        <pin num="3" name="DIN" type="input"/>
+        <pin num="4" name="VSS" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="marbastlib-various" part="SRV05-4">
+      <description>ESD Protection Diodes with Low Clamping Voltage, SOT-23-6</description>
+      <docs>http://www.onsemi.com/pub/Collateral/SRV05-4-D.PDF</docs>
+      <footprints>
+        <fp>SOT?23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">SRV05-4</field>
+        <field name="Footprint">marbastlib-various:SOT-23-6-routable</field>
+        <field name="Datasheet">http://www.onsemi.com/pub/Collateral/SRV05-4-D.PDF</field>
+      </fields>
+      <pins>
+        <pin num="1" name="IO1" type="passive"/>
+        <pin num="2" name="VN" type="passive"/>
+        <pin num="3" name="IO2" type="passive"/>
+        <pin num="4" name="IO3" type="passive"/>
+        <pin num="5" name="VP" type="passive"/>
+        <pin num="6" name="IO4" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="74xGxx">
+      <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//74xGxx.kicad_sym</uri>
+    </library>
+    <library logical="Connector_Generic">
+      <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Connector_Generic.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Device.kicad_sym</uri>
+    </library>
+    <library logical="Memory_Flash">
+      <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Memory_Flash.kicad_sym</uri>
+    </library>
+    <library logical="Regulator_Linear">
+      <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Regulator_Linear.kicad_sym</uri>
+    </library>
+    <library logical="Sleep-lib">
+      <uri>/Users/juliandomingo/git/pcbs/libraries/Sleep-lib/Sleep-lib.kicad_sym</uri>
+    </library>
+    <library logical="Switch">
+      <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Switch.kicad_sym</uri>
+    </library>
+    <library logical="marbastlib-mx">
+      <uri>/Users/juliandomingo/git/pcbs/libraries/marbastlib/marbastlib-mx.kicad_sym</uri>
+    </library>
+    <library logical="marbastlib-various">
+      <uri>/Users/juliandomingo/git/pcbs/libraries/marbastlib/marbastlib-various.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+1V1">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="C3" pin="1" pintype="passive"/>
+      <node ref="U6" pin="23" pinfunction="DVDD" pintype="power_in"/>
+      <node ref="U6" pin="45" pinfunction="VREG_VOUT" pintype="power_out"/>
+      <node ref="U6" pin="50" pinfunction="DVDD" pintype="power_in"/>
+    </net>
+    <net code="2" name="+3V3">
+      <node ref="C10" pin="1" pintype="passive"/>
+      <node ref="C11" pin="1" pintype="passive"/>
+      <node ref="C12" pin="1" pintype="passive"/>
+      <node ref="C16" pin="1" pintype="passive"/>
+      <node ref="C17" pin="1" pintype="passive"/>
+      <node ref="C4" pin="1" pintype="passive"/>
+      <node ref="C5" pin="1" pintype="passive"/>
+      <node ref="C6" pin="1" pintype="passive"/>
+      <node ref="C7" pin="1" pintype="passive"/>
+      <node ref="C8" pin="1" pintype="passive"/>
+      <node ref="C9" pin="1" pintype="passive"/>
+      <node ref="R1" pin="1" pintype="passive"/>
+      <node ref="U2" pin="2" pinfunction="VO" pintype="power_out"/>
+      <node ref="U4" pin="8" pinfunction="VCC" pintype="power_in"/>
+      <node ref="U6" pin="1" pinfunction="IOVDD" pintype="power_in"/>
+      <node ref="U6" pin="10" pinfunction="IOVDD" pintype="power_in"/>
+      <node ref="U6" pin="22" pinfunction="IOVDD" pintype="power_in"/>
+      <node ref="U6" pin="33" pinfunction="IOVDD" pintype="power_in"/>
+      <node ref="U6" pin="42" pinfunction="IOVDD" pintype="power_in"/>
+      <node ref="U6" pin="43" pinfunction="ADC_AVDD" pintype="power_in"/>
+      <node ref="U6" pin="44" pinfunction="VREG_VIN" pintype="power_in"/>
+      <node ref="U6" pin="48" pinfunction="USB_VDD" pintype="power_in"/>
+      <node ref="U6" pin="49" pinfunction="IOVDD" pintype="power_in"/>
+    </net>
+    <net code="3" name="+5V">
+      <node ref="C15" pin="1" pintype="passive"/>
+      <node ref="C18" pin="1" pintype="passive"/>
+      <node ref="C19" pin="1" pintype="passive"/>
+      <node ref="C20" pin="1" pintype="passive"/>
+      <node ref="C21" pin="1" pintype="passive"/>
+      <node ref="C22" pin="1" pintype="passive"/>
+      <node ref="C23" pin="1" pintype="passive"/>
+      <node ref="C24" pin="1" pintype="passive"/>
+      <node ref="C25" pin="1" pintype="passive"/>
+      <node ref="C26" pin="1" pintype="passive"/>
+      <node ref="C27" pin="1" pintype="passive"/>
+      <node ref="C28" pin="1" pintype="passive"/>
+      <node ref="C29" pin="1" pintype="passive"/>
+      <node ref="C30" pin="1" pintype="passive"/>
+      <node ref="D1" pin="1" pinfunction="VDD" pintype="power_in"/>
+      <node ref="D10" pin="1" pinfunction="VDD" pintype="power_in"/>
+      <node ref="D11" pin="1" pinfunction="VDD" pintype="power_in"/>
+      <node ref="D12" pin="1" pinfunction="VDD" pintype="power_in"/>
+      <node ref="D2" pin="1" pinfunction="VDD" pintype="power_in"/>
+      <node ref="D3" pin="1" pinfunction="VDD" pintype="power_in"/>
+      <node ref="D4" pin="1" pinfunction="VDD" pintype="power_in"/>
+      <node ref="D5" pin="1" pinfunction="VDD" pintype="power_in"/>
+      <node ref="D6" pin="1" pinfunction="VDD" pintype="power_in"/>
+      <node ref="D7" pin="1" pinfunction="VDD" pintype="power_in"/>
+      <node ref="D8" pin="1" pinfunction="VDD" pintype="power_in"/>
+      <node ref="D9" pin="1" pinfunction="VDD" pintype="power_in"/>
+      <node ref="F1" pin="2" pintype="passive"/>
+      <node ref="U2" pin="3" pinfunction="VI" pintype="power_in"/>
+      <node ref="U3" pin="5" pinfunction="VP" pintype="passive"/>
+      <node ref="U5" pin="5" pinfunction="VCC" pintype="power_in"/>
+    </net>
+    <net code="4" name="/D_+">
+      <node ref="R2" pin="2" pintype="passive"/>
+      <node ref="U6" pin="47" pinfunction="D+" pintype="bidirectional"/>
+    </net>
+    <net code="5" name="/D_-">
+      <node ref="R3" pin="2" pintype="passive"/>
+      <node ref="U6" pin="46" pinfunction="D-" pintype="bidirectional"/>
+    </net>
+    <net code="6" name="/XTAL_O">
+      <node ref="C14" pin="2" pintype="passive"/>
+      <node ref="R4" pin="1" pintype="passive"/>
+      <node ref="Y1" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="7" name="/~{USB_BOOT}">
+      <node ref="R5" pin="1" pintype="passive"/>
+    </net>
+    <net code="8" name="ARGB_3V3">
+      <node ref="U5" pin="2" pintype="input"/>
+      <node ref="U6" pin="3" pinfunction="GPIO1" pintype="input"/>
+    </net>
+    <net code="9" name="ARGB_5V">
+      <node ref="D1" pin="3" pinfunction="DIN" pintype="input"/>
+      <node ref="U5" pin="4" pintype="tri_state"/>
+    </net>
+    <net code="10" name="COL00">
+      <node ref="U6" pin="40" pinfunction="GPIO28/ADC2" pintype="input"/>
+    </net>
+    <net code="11" name="COL01">
+      <node ref="U6" pin="38" pinfunction="GPIO26/ADC0" pintype="input"/>
+    </net>
+    <net code="12" name="COL02">
+      <node ref="U6" pin="6" pinfunction="GPIO4" pintype="input"/>
+    </net>
+    <net code="13" name="COL03">
+      <node ref="U6" pin="7" pinfunction="GPIO5" pintype="input"/>
+    </net>
+    <net code="14" name="COL04">
+      <node ref="U6" pin="8" pinfunction="GPIO6" pintype="input"/>
+    </net>
+    <net code="15" name="COL05">
+      <node ref="U6" pin="9" pinfunction="GPIO7" pintype="input"/>
+    </net>
+    <net code="16" name="COL06">
+      <node ref="U6" pin="11" pinfunction="GPIO8" pintype="input"/>
+    </net>
+    <net code="17" name="COL07">
+      <node ref="U6" pin="12" pinfunction="GPIO9" pintype="input"/>
+    </net>
+    <net code="18" name="COL08">
+      <node ref="U6" pin="13" pinfunction="GPIO10" pintype="input"/>
+    </net>
+    <net code="19" name="COL09">
+      <node ref="U6" pin="14" pinfunction="GPIO11" pintype="input"/>
+    </net>
+    <net code="20" name="COL10">
+      <node ref="U6" pin="15" pinfunction="GPIO12" pintype="input"/>
+    </net>
+    <net code="21" name="COL11">
+      <node ref="U6" pin="16" pinfunction="GPIO13" pintype="input"/>
+    </net>
+    <net code="22" name="COL12">
+      <node ref="U6" pin="17" pinfunction="GPIO14" pintype="input"/>
+    </net>
+    <net code="23" name="COL13">
+      <node ref="U6" pin="18" pinfunction="GPIO15" pintype="input"/>
+    </net>
+    <net code="24" name="CS">
+      <node ref="R5" pin="2" pintype="passive"/>
+      <node ref="U4" pin="1" pinfunction="~{CS}" pintype="input"/>
+      <node ref="U6" pin="56" pinfunction="QSPI_SS_N" pintype="bidirectional"/>
+    </net>
+    <net code="25" name="D_N">
+      <node ref="J1" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="R3" pin="1" pintype="passive"/>
+      <node ref="U3" pin="4" pinfunction="IO3" pintype="passive"/>
+    </net>
+    <net code="26" name="D_P">
+      <node ref="J1" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="R2" pin="1" pintype="passive"/>
+      <node ref="U3" pin="3" pinfunction="IO2" pintype="passive"/>
+    </net>
+    <net code="27" name="GND">
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="C10" pin="2" pintype="passive"/>
+      <node ref="C11" pin="2" pintype="passive"/>
+      <node ref="C12" pin="2" pintype="passive"/>
+      <node ref="C13" pin="1" pintype="passive"/>
+      <node ref="C14" pin="1" pintype="passive"/>
+      <node ref="C15" pin="2" pintype="passive"/>
+      <node ref="C16" pin="2" pintype="passive"/>
+      <node ref="C17" pin="2" pintype="passive"/>
+      <node ref="C18" pin="2" pintype="passive"/>
+      <node ref="C19" pin="2" pintype="passive"/>
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="C20" pin="2" pintype="passive"/>
+      <node ref="C21" pin="2" pintype="passive"/>
+      <node ref="C22" pin="2" pintype="passive"/>
+      <node ref="C23" pin="2" pintype="passive"/>
+      <node ref="C24" pin="2" pintype="passive"/>
+      <node ref="C25" pin="2" pintype="passive"/>
+      <node ref="C26" pin="2" pintype="passive"/>
+      <node ref="C27" pin="2" pintype="passive"/>
+      <node ref="C28" pin="2" pintype="passive"/>
+      <node ref="C29" pin="2" pintype="passive"/>
+      <node ref="C3" pin="2" pintype="passive"/>
+      <node ref="C30" pin="2" pintype="passive"/>
+      <node ref="C4" pin="2" pintype="passive"/>
+      <node ref="C5" pin="2" pintype="passive"/>
+      <node ref="C6" pin="2" pintype="passive"/>
+      <node ref="C7" pin="2" pintype="passive"/>
+      <node ref="C8" pin="2" pintype="passive"/>
+      <node ref="C9" pin="2" pintype="passive"/>
+      <node ref="D1" pin="4" pinfunction="VSS" pintype="power_in"/>
+      <node ref="D10" pin="4" pinfunction="VSS" pintype="power_in"/>
+      <node ref="D11" pin="4" pinfunction="VSS" pintype="power_in"/>
+      <node ref="D12" pin="4" pinfunction="VSS" pintype="power_in"/>
+      <node ref="D2" pin="4" pinfunction="VSS" pintype="power_in"/>
+      <node ref="D3" pin="4" pinfunction="VSS" pintype="power_in"/>
+      <node ref="D4" pin="4" pinfunction="VSS" pintype="power_in"/>
+      <node ref="D5" pin="4" pinfunction="VSS" pintype="power_in"/>
+      <node ref="D6" pin="4" pinfunction="VSS" pintype="power_in"/>
+      <node ref="D7" pin="4" pinfunction="VSS" pintype="power_in"/>
+      <node ref="D8" pin="4" pinfunction="VSS" pintype="power_in"/>
+      <node ref="D9" pin="4" pinfunction="VSS" pintype="power_in"/>
+      <node ref="J1" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="U2" pin="1" pinfunction="GND" pintype="power_in"/>
+      <node ref="U3" pin="2" pinfunction="VN" pintype="passive"/>
+      <node ref="U4" pin="4" pinfunction="GND" pintype="power_in"/>
+      <node ref="U5" pin="1" pintype="input"/>
+      <node ref="U5" pin="3" pinfunction="GND" pintype="power_in"/>
+      <node ref="U6" pin="19" pinfunction="TESTEN" pintype="input"/>
+      <node ref="U6" pin="57" pinfunction="GND" pintype="power_in"/>
+      <node ref="Y1" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="Y1" pin="4" pinfunction="4" pintype="passive"/>
+    </net>
+    <net code="28" name="Net-(D1-DOUT)">
+      <node ref="D1" pin="2" pinfunction="DOUT" pintype="output"/>
+      <node ref="D2" pin="3" pinfunction="DIN" pintype="input"/>
+    </net>
+    <net code="29" name="Net-(D2-DOUT)">
+      <node ref="D2" pin="2" pinfunction="DOUT" pintype="output"/>
+      <node ref="D3" pin="3" pinfunction="DIN" pintype="input"/>
+    </net>
+    <net code="30" name="Net-(D3-DOUT)">
+      <node ref="D3" pin="2" pinfunction="DOUT" pintype="output"/>
+      <node ref="D4" pin="3" pinfunction="DIN" pintype="input"/>
+    </net>
+    <net code="31" name="Net-(D4-DOUT)">
+      <node ref="D4" pin="2" pinfunction="DOUT" pintype="output"/>
+      <node ref="D5" pin="3" pinfunction="DIN" pintype="input"/>
+    </net>
+    <net code="32" name="Net-(D5-DOUT)">
+      <node ref="D5" pin="2" pinfunction="DOUT" pintype="output"/>
+      <node ref="D6" pin="3" pinfunction="DIN" pintype="input"/>
+    </net>
+    <net code="33" name="Net-(D6-DOUT)">
+      <node ref="D6" pin="2" pinfunction="DOUT" pintype="output"/>
+      <node ref="D7" pin="3" pinfunction="DIN" pintype="input"/>
+    </net>
+    <net code="34" name="Net-(D7-DOUT)">
+      <node ref="D7" pin="2" pinfunction="DOUT" pintype="output"/>
+      <node ref="D8" pin="3" pinfunction="DIN" pintype="input"/>
+    </net>
+    <net code="35" name="Net-(D8-DOUT)">
+      <node ref="D8" pin="2" pinfunction="DOUT" pintype="output"/>
+      <node ref="D9" pin="3" pinfunction="DIN" pintype="input"/>
+    </net>
+    <net code="36" name="Net-(D10-DIN)">
+      <node ref="D10" pin="3" pinfunction="DIN" pintype="input"/>
+      <node ref="D9" pin="2" pinfunction="DOUT" pintype="output"/>
+    </net>
+    <net code="37" name="Net-(D10-DOUT)">
+      <node ref="D10" pin="2" pinfunction="DOUT" pintype="output"/>
+      <node ref="D11" pin="3" pinfunction="DIN" pintype="input"/>
+    </net>
+    <net code="38" name="Net-(D11-DOUT)">
+      <node ref="D11" pin="2" pinfunction="DOUT" pintype="output"/>
+      <node ref="D12" pin="3" pinfunction="DIN" pintype="input"/>
+    </net>
+    <net code="39" name="Net-(D13-A)">
+      <node ref="D13" pin="2" pinfunction="A" pintype="passive"/>
+    </net>
+    <net code="40" name="Net-(D14-A)">
+      <node ref="D14" pin="2" pinfunction="A" pintype="passive"/>
+    </net>
+    <net code="41" name="Net-(D15-A)">
+      <node ref="D15" pin="2" pinfunction="A" pintype="passive"/>
+    </net>
+    <net code="42" name="Net-(D16-A)">
+      <node ref="D16" pin="2" pinfunction="A" pintype="passive"/>
+    </net>
+    <net code="43" name="Net-(D17-A)">
+      <node ref="D17" pin="2" pinfunction="A" pintype="passive"/>
+    </net>
+    <net code="44" name="Net-(D18-A)">
+      <node ref="D18" pin="2" pinfunction="A" pintype="passive"/>
+    </net>
+    <net code="45" name="Net-(D19-A)">
+      <node ref="D19" pin="2" pinfunction="A" pintype="passive"/>
+    </net>
+    <net code="46" name="Net-(D20-A)">
+      <node ref="D20" pin="2" pinfunction="A" pintype="passive"/>
+    </net>
+    <net code="47" name="Net-(D21-A)">
+      <node ref="D21" pin="2" pinfunction="A" pintype="passive"/>
+    </net>
+    <net code="48" name="Net-(D22-A)">
+      <node ref="D22" pin="2" pinfunction="A" pintype="passive"/>
+    </net>
+    <net code="49" name="Net-(D23-A)">
+      <node ref="D23" pin="2" pinfunction="A" pintype="passive"/>
+    </net>
+    <net code="50" name="Net-(D24-A)">
+      <node ref="D24" pin="2" pinfunction="A" pintype="passive"/>
+    </net>
+    <net code="51" name="Net-(D25-A)">
+      <node ref="D25" pin="2" pinfunction="A" pintype="passive"/>
+    </net>
+    <net code="52" name="Net-(D26-A)">
+      <node ref="D26" pin="2" pinfunction="A" pintype="passive"/>
+    </net>
+    <net code="53" name="Net-(D27-A)">
+      <node ref="D27" pin="2" pinfunction="A" pintype="passive"/>
+    </net>
+    <net code="54" name="Net-(D28-A)">
+      <node ref="D28" pin="2" pinfunction="A" pintype="passive"/>
+    </net>
+    <net code="55" name="Net-(D29-A)">
+      <node ref="D29" pin="2" pinfunction="A" pintype="passive"/>
+    </net>
+    <net code="56" name="Net-(D30-A)">
+      <node ref="D30" pin="2" pinfunction="A" pintype="passive"/>
+    </net>
+    <net code="57" name="Net-(D31-A)">
+      <node ref="D31" pin="2" pinfunction="A" pintype="passive"/>
+    </net>
+    <net code="58" name="Net-(D32-A)">
+      <node ref="D32" pin="2" pinfunction="A" pintype="passive"/>
+    </net>
+    <net code="59" name="Net-(D33-A)">
+      <node ref="D33" pin="2" pinfunction="A" pintype="passive"/>
+    </net>
+    <net code="60" name="Net-(D34-A)">
+      <node ref="D34" pin="2" pinfunction="A" pintype="passive"/>
+    </net>
+    <net code="61" name="Net-(D35-A)">
+      <node ref="D35" pin="2" pinfunction="A" pintype="passive"/>
+    </net>
+    <net code="62" name="Net-(D36-A)">
+      <node ref="D36" pin="2" pinfunction="A" pintype="passive"/>
+    </net>
+    <net code="63" name="Net-(D37-A)">
+      <node ref="D37" pin="2" pinfunction="A" pintype="passive"/>
+    </net>
+    <net code="64" name="Net-(D38-A)">
+      <node ref="D38" pin="2" pinfunction="A" pintype="passive"/>
+    </net>
+    <net code="65" name="Net-(D39-A)">
+      <node ref="D39" pin="2" pinfunction="A" pintype="passive"/>
+    </net>
+    <net code="66" name="Net-(D40-A)">
+      <node ref="D40" pin="2" pinfunction="A" pintype="passive"/>
+    </net>
+    <net code="67" name="Net-(D41-A)">
+      <node ref="D41" pin="2" pinfunction="A" pintype="passive"/>
+    </net>
+    <net code="68" name="Net-(D42-A)">
+      <node ref="D42" pin="2" pinfunction="A" pintype="passive"/>
+    </net>
+    <net code="69" name="Net-(D43-A)">
+      <node ref="D43" pin="2" pinfunction="A" pintype="passive"/>
+    </net>
+    <net code="70" name="Net-(D44-A)">
+      <node ref="D44" pin="2" pinfunction="A" pintype="passive"/>
+    </net>
+    <net code="71" name="Net-(D45-A)">
+      <node ref="D45" pin="2" pinfunction="A" pintype="passive"/>
+    </net>
+    <net code="72" name="Net-(D46-A)">
+      <node ref="D46" pin="2" pinfunction="A" pintype="passive"/>
+    </net>
+    <net code="73" name="Net-(D47-A)">
+      <node ref="D47" pin="2" pinfunction="A" pintype="passive"/>
+    </net>
+    <net code="74" name="Net-(D48-A)">
+      <node ref="D48" pin="2" pinfunction="A" pintype="passive"/>
+    </net>
+    <net code="75" name="Net-(D49-A)">
+      <node ref="D49" pin="2" pinfunction="A" pintype="passive"/>
+    </net>
+    <net code="76" name="Net-(D50-A)">
+      <node ref="D50" pin="2" pinfunction="A" pintype="passive"/>
+    </net>
+    <net code="77" name="Net-(D51-A)">
+      <node ref="D51" pin="2" pinfunction="A" pintype="passive"/>
+    </net>
+    <net code="78" name="Net-(D52-A)">
+      <node ref="D52" pin="2" pinfunction="A" pintype="passive"/>
+    </net>
+    <net code="79" name="Net-(D53-A)">
+      <node ref="D53" pin="2" pinfunction="A" pintype="passive"/>
+    </net>
+    <net code="80" name="Net-(D54-A)">
+      <node ref="D54" pin="2" pinfunction="A" pintype="passive"/>
+    </net>
+    <net code="81" name="Net-(D55-A)">
+      <node ref="D55" pin="2" pinfunction="A" pintype="passive"/>
+    </net>
+    <net code="82" name="Net-(D56-A)">
+      <node ref="D56" pin="2" pinfunction="A" pintype="passive"/>
+    </net>
+    <net code="83" name="Net-(D57-A)">
+      <node ref="D57" pin="2" pinfunction="A" pintype="passive"/>
+    </net>
+    <net code="84" name="Net-(D58-A)">
+      <node ref="D58" pin="2" pinfunction="A" pintype="passive"/>
+    </net>
+    <net code="85" name="Net-(D59-A)">
+      <node ref="D59" pin="2" pinfunction="A" pintype="passive"/>
+    </net>
+    <net code="86" name="Net-(D60-A)">
+      <node ref="D60" pin="2" pinfunction="A" pintype="passive"/>
+    </net>
+    <net code="87" name="Net-(D61-A)">
+      <node ref="D61" pin="2" pinfunction="A" pintype="passive"/>
+    </net>
+    <net code="88" name="Net-(D62-A)">
+      <node ref="D62" pin="2" pinfunction="A" pintype="passive"/>
+    </net>
+    <net code="89" name="Net-(D63-A)">
+      <node ref="D63" pin="2" pinfunction="A" pintype="passive"/>
+    </net>
+    <net code="90" name="Net-(D64-A)">
+      <node ref="D64" pin="2" pinfunction="A" pintype="passive"/>
+    </net>
+    <net code="91" name="Net-(D65-A)">
+      <node ref="D65" pin="2" pinfunction="A" pintype="passive"/>
+    </net>
+    <net code="92" name="Net-(D66-A)">
+      <node ref="D66" pin="2" pinfunction="A" pintype="passive"/>
+    </net>
+    <net code="93" name="Net-(D67-A)">
+      <node ref="D67" pin="2" pinfunction="A" pintype="passive"/>
+    </net>
+    <net code="94" name="Net-(D68-A)">
+      <node ref="D68" pin="2" pinfunction="A" pintype="passive"/>
+    </net>
+    <net code="95" name="Net-(D69-A)">
+      <node ref="D69" pin="2" pinfunction="A" pintype="passive"/>
+    </net>
+    <net code="96" name="Net-(D70-A)">
+      <node ref="D70" pin="2" pinfunction="A" pintype="passive"/>
+    </net>
+    <net code="97" name="Net-(D71-A)">
+      <node ref="D71" pin="2" pinfunction="A" pintype="passive"/>
+    </net>
+    <net code="98" name="Net-(D72-A)">
+      <node ref="D72" pin="2" pinfunction="A" pintype="passive"/>
+    </net>
+    <net code="99" name="QSPI_CLK">
+      <node ref="U4" pin="6" pinfunction="CLK" pintype="input"/>
+      <node ref="U6" pin="52" pinfunction="QSPI_SCLK" pintype="input"/>
+    </net>
+    <net code="100" name="ROW0">
+      <node ref="D13" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D14" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D15" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D16" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D17" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D18" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D19" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D20" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D21" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D22" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D23" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D24" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D25" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D26" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="U6" pin="39" pinfunction="GPIO27/ADC1" pintype="input"/>
+    </net>
+    <net code="101" name="ROW1">
+      <node ref="D27" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D28" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D29" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D30" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D31" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D32" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D33" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D34" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D35" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D36" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D37" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D38" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D39" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D71" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="U6" pin="41" pinfunction="GPIO29/ADC3" pintype="input"/>
+    </net>
+    <net code="102" name="ROW2">
+      <node ref="D40" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D41" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D42" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D43" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D44" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D45" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D46" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D47" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D48" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D49" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D50" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D51" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D52" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D72" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="U6" pin="2" pinfunction="GPIO0" pintype="input"/>
+    </net>
+    <net code="103" name="ROW3">
+      <node ref="D53" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D54" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D55" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D56" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D57" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D58" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D59" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D60" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D61" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D62" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D63" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D64" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D65" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="U6" pin="36" pinfunction="GPIO24" pintype="input"/>
+    </net>
+    <net code="104" name="ROW4">
+      <node ref="D66" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D67" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D68" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D69" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D70" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="U6" pin="37" pinfunction="GPIO25" pintype="input"/>
+    </net>
+    <net code="105" name="SD0">
+      <node ref="U4" pin="5" pinfunction="DI(IO0)" pintype="bidirectional"/>
+      <node ref="U6" pin="53" pinfunction="QSPI_SD0" pintype="bidirectional"/>
+    </net>
+    <net code="106" name="SD1">
+      <node ref="U4" pin="2" pinfunction="DO(IO1)" pintype="bidirectional"/>
+      <node ref="U6" pin="55" pinfunction="QSPI_SD1" pintype="bidirectional"/>
+    </net>
+    <net code="107" name="SD2">
+      <node ref="U4" pin="3" pinfunction="IO2" pintype="bidirectional"/>
+      <node ref="U6" pin="54" pinfunction="QSPI_SD2" pintype="bidirectional"/>
+    </net>
+    <net code="108" name="SD3">
+      <node ref="U4" pin="7" pinfunction="IO3" pintype="bidirectional"/>
+      <node ref="U6" pin="51" pinfunction="QSPI_SD3" pintype="bidirectional"/>
+    </net>
+    <net code="109" name="SWCLK">
+      <node ref="U6" pin="24" pinfunction="SWCLK" pintype="input"/>
+    </net>
+    <net code="110" name="SWD">
+      <node ref="U6" pin="25" pinfunction="SWDIO" pintype="bidirectional"/>
+    </net>
+    <net code="111" name="VBUS">
+      <node ref="F1" pin="1" pintype="passive"/>
+      <node ref="J1" pin="1" pinfunction="Pin_1" pintype="passive"/>
+    </net>
+    <net code="112" name="XTAL_IN">
+      <node ref="C13" pin="2" pintype="passive"/>
+      <node ref="U6" pin="20" pinfunction="XTAL_IN" pintype="input"/>
+      <node ref="Y1" pin="3" pinfunction="3" pintype="passive"/>
+    </net>
+    <net code="113" name="XTAL_OUT">
+      <node ref="R4" pin="2" pintype="passive"/>
+      <node ref="U6" pin="21" pinfunction="XTAL_OUT" pintype="input"/>
+    </net>
+    <net code="114" name="unconnected-(D12-DOUT-Pad2)">
+      <node ref="D12" pin="2" pinfunction="DOUT" pintype="output+no_connect"/>
+    </net>
+    <net code="115" name="unconnected-(U3-IO1-Pad1)">
+      <node ref="U3" pin="1" pinfunction="IO1" pintype="passive+no_connect"/>
+    </net>
+    <net code="116" name="unconnected-(U3-IO4-Pad6)">
+      <node ref="U3" pin="6" pinfunction="IO4" pintype="passive+no_connect"/>
+    </net>
+    <net code="117" name="unconnected-(U6-GPIO2-Pad4)">
+      <node ref="U6" pin="4" pinfunction="GPIO2" pintype="input+no_connect"/>
+    </net>
+    <net code="118" name="unconnected-(U6-GPIO3-Pad5)">
+      <node ref="U6" pin="5" pinfunction="GPIO3" pintype="input+no_connect"/>
+    </net>
+    <net code="119" name="unconnected-(U6-GPIO16-Pad27)">
+      <node ref="U6" pin="27" pinfunction="GPIO16" pintype="input+no_connect"/>
+    </net>
+    <net code="120" name="unconnected-(U6-GPIO17-Pad28)">
+      <node ref="U6" pin="28" pinfunction="GPIO17" pintype="input+no_connect"/>
+    </net>
+    <net code="121" name="unconnected-(U6-GPIO18-Pad29)">
+      <node ref="U6" pin="29" pinfunction="GPIO18" pintype="input+no_connect"/>
+    </net>
+    <net code="122" name="unconnected-(U6-GPIO19-Pad30)">
+      <node ref="U6" pin="30" pinfunction="GPIO19" pintype="input+no_connect"/>
+    </net>
+    <net code="123" name="unconnected-(U6-GPIO20-Pad31)">
+      <node ref="U6" pin="31" pinfunction="GPIO20" pintype="input+no_connect"/>
+    </net>
+    <net code="124" name="unconnected-(U6-GPIO21-Pad32)">
+      <node ref="U6" pin="32" pinfunction="GPIO21" pintype="input+no_connect"/>
+    </net>
+    <net code="125" name="unconnected-(U6-GPIO22-Pad34)">
+      <node ref="U6" pin="34" pinfunction="GPIO22" pintype="input+no_connect"/>
+    </net>
+    <net code="126" name="unconnected-(U6-GPIO23-Pad35)">
+      <node ref="U6" pin="35" pinfunction="GPIO23" pintype="input+no_connect"/>
+    </net>
+    <net code="127" name="~{RESET}">
+      <node ref="R1" pin="2" pintype="passive"/>
+      <node ref="U6" pin="26" pinfunction="~{RUN}" pintype="input"/>
+    </net>
+  </nets>
+</export>
