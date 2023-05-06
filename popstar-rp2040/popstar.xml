@@ -2,7 +2,7 @@
 <export version="E">
   <design>
     <source>/Users/juliandomingo/git/pcbs/popstar-rp2040/popstar.kicad_sch</source>
-    <date>Sunday, March 19, 2023 at 08:52:58 PM</date>
+    <date>Sunday, March 19, 2023 at 09:34:19 PM</date>
     <tool>Eeschema (7.0.0-0)</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -682,14 +682,14 @@
       <fields>
         <field name="LCSC">C5149201</field>
       </fields>
-      <libsource lib="marbastlib-various" part="SK6812MINI-E" description="Reverse mount adressable LED (WS2812 protocol)"/>
+      <libsource lib="" part="SK6812MINI-E_2" description="Reverse mount adressable LED (WS2812 protocol)"/>
       <property name="LCSC" value="C5149201"/>
       <property name="Sheetname" value="switch_matrix"/>
       <property name="Sheetfile" value="switch_matrix.kicad_sch"/>
       <property name="ki_description" value="Reverse mount adressable LED (WS2812 protocol)"/>
       <property name="ki_keywords" value="reverse mount led revmount rgb"/>
       <sheetpath names="/switch_matrix/" tstamps="/7b7e0ca3-1d6a-48a7-b8ef-32a16011b189/"/>
-      <tstamps>37c5d14f-9711-4857-90e7-e8cd387b4bfe</tstamps>
+      <tstamps>ebb764aa-b20d-4952-9ba4-87a148e02f9a</tstamps>
     </comp>
     <comp ref="D2">
       <value>SK6812MINI-E</value>
@@ -705,7 +705,7 @@
       <property name="ki_description" value="Reverse mount adressable LED (WS2812 protocol)"/>
       <property name="ki_keywords" value="reverse mount led revmount rgb"/>
       <sheetpath names="/switch_matrix/" tstamps="/7b7e0ca3-1d6a-48a7-b8ef-32a16011b189/"/>
-      <tstamps>0199f29d-b76f-4ab4-9476-ed218285dfab</tstamps>
+      <tstamps>cb6ec382-d3f3-419e-ac5d-5c6bb307330f</tstamps>
     </comp>
     <comp ref="D3">
       <value>SK6812MINI-E</value>
@@ -721,7 +721,7 @@
       <property name="ki_description" value="Reverse mount adressable LED (WS2812 protocol)"/>
       <property name="ki_keywords" value="reverse mount led revmount rgb"/>
       <sheetpath names="/switch_matrix/" tstamps="/7b7e0ca3-1d6a-48a7-b8ef-32a16011b189/"/>
-      <tstamps>05422b7d-682c-4451-95fc-2e8c3744d029</tstamps>
+      <tstamps>1521cbf9-2cff-4a1d-9978-a4fec6ec0c10</tstamps>
     </comp>
     <comp ref="D4">
       <value>SK6812MINI-E</value>
@@ -737,7 +737,7 @@
       <property name="ki_description" value="Reverse mount adressable LED (WS2812 protocol)"/>
       <property name="ki_keywords" value="reverse mount led revmount rgb"/>
       <sheetpath names="/switch_matrix/" tstamps="/7b7e0ca3-1d6a-48a7-b8ef-32a16011b189/"/>
-      <tstamps>1226d0a6-5a57-4110-aec4-bd494d652b66</tstamps>
+      <tstamps>d2c6c4cc-b518-42a0-af6a-ff31bba07f3e</tstamps>
     </comp>
     <comp ref="D5">
       <value>SK6812MINI-E</value>
@@ -753,7 +753,7 @@
       <property name="ki_description" value="Reverse mount adressable LED (WS2812 protocol)"/>
       <property name="ki_keywords" value="reverse mount led revmount rgb"/>
       <sheetpath names="/switch_matrix/" tstamps="/7b7e0ca3-1d6a-48a7-b8ef-32a16011b189/"/>
-      <tstamps>06d92cb8-a397-4122-94c7-a11fc6ea063b</tstamps>
+      <tstamps>ba061ab1-d650-460d-a0dc-be45442f2b31</tstamps>
     </comp>
     <comp ref="D6">
       <value>SK6812MINI-E</value>
@@ -762,14 +762,14 @@
       <fields>
         <field name="LCSC">C5149201</field>
       </fields>
-      <libsource lib="" part="SK6812MINI-E_6" description="Reverse mount adressable LED (WS2812 protocol)"/>
+      <libsource lib="" part="SK6812MINI-E_2" description="Reverse mount adressable LED (WS2812 protocol)"/>
       <property name="LCSC" value="C5149201"/>
       <property name="Sheetname" value="switch_matrix"/>
       <property name="Sheetfile" value="switch_matrix.kicad_sch"/>
       <property name="ki_description" value="Reverse mount adressable LED (WS2812 protocol)"/>
       <property name="ki_keywords" value="reverse mount led revmount rgb"/>
       <sheetpath names="/switch_matrix/" tstamps="/7b7e0ca3-1d6a-48a7-b8ef-32a16011b189/"/>
-      <tstamps>9ec977c1-5688-45f8-a14a-b6a06c3aa586</tstamps>
+      <tstamps>c58df995-4f37-4238-865f-587fa60232db</tstamps>
     </comp>
     <comp ref="D7">
       <value>SK6812MINI-E</value>
@@ -778,14 +778,14 @@
       <fields>
         <field name="LCSC">C5149201</field>
       </fields>
-      <libsource lib="" part="SK6812MINI-E_7" description="Reverse mount adressable LED (WS2812 protocol)"/>
+      <libsource lib="" part="SK6812MINI-E_3" description="Reverse mount adressable LED (WS2812 protocol)"/>
       <property name="LCSC" value="C5149201"/>
       <property name="Sheetname" value="switch_matrix"/>
       <property name="Sheetfile" value="switch_matrix.kicad_sch"/>
       <property name="ki_description" value="Reverse mount adressable LED (WS2812 protocol)"/>
       <property name="ki_keywords" value="reverse mount led revmount rgb"/>
       <sheetpath names="/switch_matrix/" tstamps="/7b7e0ca3-1d6a-48a7-b8ef-32a16011b189/"/>
-      <tstamps>bfb3ffd6-7fdc-4e23-8be1-368858820e5a</tstamps>
+      <tstamps>fbb6102f-7e22-43e9-be35-c1163adcdbde</tstamps>
     </comp>
     <comp ref="D8">
       <value>SK6812MINI-E</value>
@@ -794,14 +794,14 @@
       <fields>
         <field name="LCSC">C5149201</field>
       </fields>
-      <libsource lib="" part="SK6812MINI-E_8" description="Reverse mount adressable LED (WS2812 protocol)"/>
+      <libsource lib="" part="SK6812MINI-E_4" description="Reverse mount adressable LED (WS2812 protocol)"/>
       <property name="LCSC" value="C5149201"/>
       <property name="Sheetname" value="switch_matrix"/>
       <property name="Sheetfile" value="switch_matrix.kicad_sch"/>
       <property name="ki_description" value="Reverse mount adressable LED (WS2812 protocol)"/>
       <property name="ki_keywords" value="reverse mount led revmount rgb"/>
       <sheetpath names="/switch_matrix/" tstamps="/7b7e0ca3-1d6a-48a7-b8ef-32a16011b189/"/>
-      <tstamps>720f2ff3-54ab-4b33-abd7-e9f1871c5c40</tstamps>
+      <tstamps>c0658e83-2dcb-42e1-9a14-3ee58405600d</tstamps>
     </comp>
     <comp ref="D9">
       <value>SK6812MINI-E</value>
@@ -810,14 +810,14 @@
       <fields>
         <field name="LCSC">C5149201</field>
       </fields>
-      <libsource lib="" part="SK6812MINI-E_9" description="Reverse mount adressable LED (WS2812 protocol)"/>
+      <libsource lib="" part="SK6812MINI-E_5" description="Reverse mount adressable LED (WS2812 protocol)"/>
       <property name="LCSC" value="C5149201"/>
       <property name="Sheetname" value="switch_matrix"/>
       <property name="Sheetfile" value="switch_matrix.kicad_sch"/>
       <property name="ki_description" value="Reverse mount adressable LED (WS2812 protocol)"/>
       <property name="ki_keywords" value="reverse mount led revmount rgb"/>
       <sheetpath names="/switch_matrix/" tstamps="/7b7e0ca3-1d6a-48a7-b8ef-32a16011b189/"/>
-      <tstamps>8f6ff88a-caad-4d1e-89eb-67f64a033aa8</tstamps>
+      <tstamps>b8d37551-6520-4f35-8735-fd7d3a8c194a</tstamps>
     </comp>
     <comp ref="D10">
       <value>SK6812MINI-E</value>
@@ -826,14 +826,14 @@
       <fields>
         <field name="LCSC">C5149201</field>
       </fields>
-      <libsource lib="" part="SK6812MINI-E_10" description="Reverse mount adressable LED (WS2812 protocol)"/>
+      <libsource lib="" part="SK6812MINI-E_11" description="Reverse mount adressable LED (WS2812 protocol)"/>
       <property name="LCSC" value="C5149201"/>
       <property name="Sheetname" value="switch_matrix"/>
       <property name="Sheetfile" value="switch_matrix.kicad_sch"/>
       <property name="ki_description" value="Reverse mount adressable LED (WS2812 protocol)"/>
       <property name="ki_keywords" value="reverse mount led revmount rgb"/>
       <sheetpath names="/switch_matrix/" tstamps="/7b7e0ca3-1d6a-48a7-b8ef-32a16011b189/"/>
-      <tstamps>0ee3465a-8ce6-42f8-a1ef-ea4ef9641de6</tstamps>
+      <tstamps>d9697d2c-5d64-4c79-a135-cf73058fff71</tstamps>
     </comp>
     <comp ref="D11">
       <value>SK6812MINI-E</value>
@@ -849,7 +849,7 @@
       <property name="ki_description" value="Reverse mount adressable LED (WS2812 protocol)"/>
       <property name="ki_keywords" value="reverse mount led revmount rgb"/>
       <sheetpath names="/switch_matrix/" tstamps="/7b7e0ca3-1d6a-48a7-b8ef-32a16011b189/"/>
-      <tstamps>a22e2508-e31f-4b11-8876-7b07b28d1aad</tstamps>
+      <tstamps>f7a20a01-210a-4fb5-b6e6-5bdd864f6f7e</tstamps>
     </comp>
     <comp ref="D12">
       <value>SK6812MINI-E</value>
@@ -858,14 +858,14 @@
       <fields>
         <field name="LCSC">C5149201</field>
       </fields>
-      <libsource lib="" part="SK6812MINI-E_1" description="Reverse mount adressable LED (WS2812 protocol)"/>
+      <libsource lib="" part="SK6812MINI-E_11" description="Reverse mount adressable LED (WS2812 protocol)"/>
       <property name="LCSC" value="C5149201"/>
       <property name="Sheetname" value="switch_matrix"/>
       <property name="Sheetfile" value="switch_matrix.kicad_sch"/>
       <property name="ki_description" value="Reverse mount adressable LED (WS2812 protocol)"/>
       <property name="ki_keywords" value="reverse mount led revmount rgb"/>
       <sheetpath names="/switch_matrix/" tstamps="/7b7e0ca3-1d6a-48a7-b8ef-32a16011b189/"/>
-      <tstamps>0200393b-2b46-40d7-982a-4a1831638c01</tstamps>
+      <tstamps>36ea6599-120e-413a-b6ec-4aef46921998</tstamps>
     </comp>
     <comp ref="D13">
       <value>D_Small</value>
@@ -1829,34 +1829,6 @@
     </comp>
   </components>
   <libparts>
-    <libpart lib="" part="SK6812MINI-E_1">
-      <description>Reverse mount adressable LED (WS2812 protocol)</description>
-      <fields>
-        <field name="Reference">LED</field>
-        <field name="Value">SK6812MINI-E</field>
-        <field name="Footprint">marbastlib-various:LED_6028R</field>
-      </fields>
-      <pins>
-        <pin num="1" name="VDD" type="power_in"/>
-        <pin num="2" name="DOUT" type="output"/>
-        <pin num="3" name="DIN" type="input"/>
-        <pin num="4" name="VSS" type="power_in"/>
-      </pins>
-    </libpart>
-    <libpart lib="" part="SK6812MINI-E_10">
-      <description>Reverse mount adressable LED (WS2812 protocol)</description>
-      <fields>
-        <field name="Reference">LED</field>
-        <field name="Value">SK6812MINI-E</field>
-        <field name="Footprint">marbastlib-various:LED_6028R</field>
-      </fields>
-      <pins>
-        <pin num="1" name="VDD" type="power_in"/>
-        <pin num="2" name="DOUT" type="output"/>
-        <pin num="3" name="DIN" type="input"/>
-        <pin num="4" name="VSS" type="power_in"/>
-      </pins>
-    </libpart>
     <libpart lib="" part="SK6812MINI-E_11">
       <description>Reverse mount adressable LED (WS2812 protocol)</description>
       <fields>
@@ -1914,62 +1886,6 @@
       </pins>
     </libpart>
     <libpart lib="" part="SK6812MINI-E_5">
-      <description>Reverse mount adressable LED (WS2812 protocol)</description>
-      <fields>
-        <field name="Reference">LED</field>
-        <field name="Value">SK6812MINI-E</field>
-        <field name="Footprint">marbastlib-various:LED_6028R</field>
-      </fields>
-      <pins>
-        <pin num="1" name="VDD" type="power_in"/>
-        <pin num="2" name="DOUT" type="output"/>
-        <pin num="3" name="DIN" type="input"/>
-        <pin num="4" name="VSS" type="power_in"/>
-      </pins>
-    </libpart>
-    <libpart lib="" part="SK6812MINI-E_6">
-      <description>Reverse mount adressable LED (WS2812 protocol)</description>
-      <fields>
-        <field name="Reference">LED</field>
-        <field name="Value">SK6812MINI-E</field>
-        <field name="Footprint">marbastlib-various:LED_6028R</field>
-      </fields>
-      <pins>
-        <pin num="1" name="VDD" type="power_in"/>
-        <pin num="2" name="DOUT" type="output"/>
-        <pin num="3" name="DIN" type="input"/>
-        <pin num="4" name="VSS" type="power_in"/>
-      </pins>
-    </libpart>
-    <libpart lib="" part="SK6812MINI-E_7">
-      <description>Reverse mount adressable LED (WS2812 protocol)</description>
-      <fields>
-        <field name="Reference">LED</field>
-        <field name="Value">SK6812MINI-E</field>
-        <field name="Footprint">marbastlib-various:LED_6028R</field>
-      </fields>
-      <pins>
-        <pin num="1" name="VDD" type="power_in"/>
-        <pin num="2" name="DOUT" type="output"/>
-        <pin num="3" name="DIN" type="input"/>
-        <pin num="4" name="VSS" type="power_in"/>
-      </pins>
-    </libpart>
-    <libpart lib="" part="SK6812MINI-E_8">
-      <description>Reverse mount adressable LED (WS2812 protocol)</description>
-      <fields>
-        <field name="Reference">LED</field>
-        <field name="Value">SK6812MINI-E</field>
-        <field name="Footprint">marbastlib-various:LED_6028R</field>
-      </fields>
-      <pins>
-        <pin num="1" name="VDD" type="power_in"/>
-        <pin num="2" name="DOUT" type="output"/>
-        <pin num="3" name="DIN" type="input"/>
-        <pin num="4" name="VSS" type="power_in"/>
-      </pins>
-    </libpart>
-    <libpart lib="" part="SK6812MINI-E_9">
       <description>Reverse mount adressable LED (WS2812 protocol)</description>
       <fields>
         <field name="Reference">LED</field>
@@ -2272,20 +2188,6 @@
         <field name="Value">MX_stab</field>
         <field name="Footprint">marbastlib-mx:STAB_MX_P_6.25u</field>
       </fields>
-    </libpart>
-    <libpart lib="marbastlib-various" part="SK6812MINI-E">
-      <description>Reverse mount adressable LED (WS2812 protocol)</description>
-      <fields>
-        <field name="Reference">LED</field>
-        <field name="Value">SK6812MINI-E</field>
-        <field name="Footprint">marbastlib-various:LED_6028R</field>
-      </fields>
-      <pins>
-        <pin num="1" name="VDD" type="power_in"/>
-        <pin num="2" name="DOUT" type="output"/>
-        <pin num="3" name="DIN" type="input"/>
-        <pin num="4" name="VSS" type="power_in"/>
-      </pins>
     </libpart>
     <libpart lib="marbastlib-various" part="SRV05-4">
       <description>ESD Protection Diodes with Low Clamping Voltage, SOT-23-6</description>
